@@ -197,10 +197,10 @@ div#myCarousel{
 				width: 70px;
 				transition: width 0.5s linear 0.1s;
 			}
-			img:hover{
+			/*img:hover{
 				width: 100px;
 				transition: width 0.5s linear 0.1s;
-			}
+			}*/
 		}
 	}
 }
@@ -260,16 +260,16 @@ div#myCarousel{
 			color: #1C9DBB;
 		}
 		img{
-			width: 80%;
+			width: 120px;
 			//margin-top: 70px;
 			border-radius: 10px;
 			transition: width 0.5s linear 0.1s;
 
 		}
-		img:hover{
-			width: 100%;
+		/*img:hover{
+			width: 140px;
 			transition: width 0.5s linear 0.1s;
-		}
+		}*/
 		.fa{
 			font-size: 60px;
 		}

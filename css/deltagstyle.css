@@ -142,15 +142,14 @@ div#myCarousel div.carousel-inner div.item img {
 .container-box-2 .clients figure {
   display: inline-block;
   margin-right: 25px;
+  /*img:hover{
+				width: 100px;
+				transition: width 0.5s linear 0.1s;
+			}*/
 }
 
 .container-box-2 .clients figure img {
   width: 70px;
-  transition: width 0.5s linear 0.1s;
-}
-
-.container-box-2 .clients figure img:hover {
-  width: 100px;
   transition: width 0.5s linear 0.1s;
 }
 
@@ -193,6 +192,10 @@ div#myCarousel div.carousel-inner div.item img {
   margin-top: 60px;
   margin-right: 45px;
   margin-left: 50px;
+  /*img:hover{
+			width: 140px;
+			transition: width 0.5s linear 0.1s;
+		}*/
 }
 
 .content-select .contenido h2 {
@@ -201,13 +204,8 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .content-select .contenido img {
-  width: 80%;
+  width: 120px;
   border-radius: 10px;
-  transition: width 0.5s linear 0.1s;
-}
-
-.content-select .contenido img:hover {
-  width: 100%;
   transition: width 0.5s linear 0.1s;
 }
 
