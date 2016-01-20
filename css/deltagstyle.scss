@@ -12,7 +12,7 @@ body{
 }
 
 nav{
-	//background-color: #008FC3;
+	background-color: white;
 	width: 100%;
 	display: inline-block;
 	margin: 5px 0px;
@@ -23,6 +23,7 @@ nav{
 	//box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 	//height: 50px;
 	
+	
 
 
 	figure{
@@ -31,7 +32,7 @@ nav{
 		text-align: center;
 		//height: 95px;
 		display: inline-block;
-		//background-color: white;
+		background-color: white;
 		
 		img{
 			margin-left: 100px;
@@ -54,6 +55,7 @@ nav{
 			font-size: 14px;
 			//font-weight: bold;
 			vertical-align: center;
+
 			
 			a{
 				color: black;
@@ -76,9 +78,22 @@ nav{
 	}
 }
 
+.navbar{
+	padding-right: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	//background-color: #0087BC;
+
+	//border: 1px solid #282828;
+
+}
+
 div#myCarousel{
 	padding-left: 0px;
 	padding-right: 0px;
+	.carousel-control{
+		//width: 45%;
+	}
 
 
 	.carousel-indicators{
@@ -138,7 +153,7 @@ div#myCarousel{
 
 			img{
 				display: inline-block;
-				width: 70%;
+				width: 100%;
 				
 				//height: 300px;
 				//border-radius: 10px;
@@ -150,6 +165,10 @@ div#myCarousel{
 .first{
 	background-color: #f9f9f9;
 	border-bottom: 1px solid $linecolor;
+	margin-right: 200px;
+	margin-left: 200px;
+
+	
 }
 .box{
 
@@ -160,18 +179,17 @@ div#myCarousel{
 	margin: 10px;
 }
 	
-.news{
-	margin-top: 10px;
-}
+
 
 .container-box{
-	margin: 0px;
+	
 	margin-top: 0px;
+	//margin-left: 85px;
 	//-webkit-box-shadow: 0px 0px 5px grey;
 	padding: 0px;
 	
-	//width: 100%;
-	//border-radius: 10px;
+	width: 100%;
+	border-radius: 10px;
 }
 
 .container-box-2{
@@ -183,19 +201,21 @@ div#myCarousel{
 		text-align: center;
 		padding:20px;
 		background-color: #f4f4f4;
-		border: 1px solid $linecolor;
+		//border: 1px solid $linecolor;
 		
 		//border-radius: 10px;
 		width: 100%;
 
 		figure{
 			display: inline-block;
+			border-right: 1px dashed $linecolor;
 			
 			margin-right: 25px;
 			
 			img{
-				width: 70px;
-				transition: width 0.5s linear 0.1s;
+				width: 100px;
+				margin-right: 25px;
+				//transition: width 0.5s linear 0.1s;
 			}
 			/*img:hover{
 				width: 100px;
@@ -205,14 +225,7 @@ div#myCarousel{
 	}
 }
 
-.navbar{
-	padding-right: 0px;
-	padding-bottom: 10px;
-	margin-bottom: 0px;
 
-	//border: 1px solid #282828;
-
-}
 
 .news{
 	display: block;
@@ -234,36 +247,54 @@ div#myCarousel{
 		text-decoration: none;
 		color: #282828;
 	}
+	
 }
 
 .container{
 
-	margin-right: 100px;
-	margin-left: 100px;
+	//margin-right: 100px;
+	//margin-left: 100px;
 	
 }
 
-.content-select{
+.content-section{
 	text-align: center;
+	//background-color: #f4f4f4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	//padding: 40px;
+	.container{
+		//border-top: 1px solid #00A7D9;
+	}
+
+	
 	.contenido{
-		//background-color: #f4f4f4;
-		//border: 1px solid $linecolor;
+		//background-color: #00A7D9;
+		//border: 1px solid #00A7D9;
 		border-radius: 10px;
-		margin-top: 60px;
+		margin-top: 40px;
 		//height: 200px;
 		margin-right: 45px;
 		//padding: 0px;
-		margin-left: 50px;
+		margin-left: 165px;
+		iframe{
+			border-radius: 10px;
+		}
+
 		h2{
 			
 			font-size: 19px;
-			color: #1C9DBB;
+			color: #00A7D9;
+		}
+		p{
+			text-align: left;
 		}
 		img{
 			width: 120px;
 			//margin-top: 70px;
 			border-radius: 10px;
 			transition: width 0.5s linear 0.1s;
+			margin-top: 10px;
 
 		}
 		/*img:hover{
@@ -276,3 +307,4 @@ div#myCarousel{
 
 	}
 }
+
