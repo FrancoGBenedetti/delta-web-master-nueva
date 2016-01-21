@@ -131,6 +131,8 @@ div#myCarousel div.carousel-inner div.item img {
 
 .container-box {
   margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 40px;
   width: 70%;
   border-radius: 10px;
