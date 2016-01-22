@@ -8,11 +8,12 @@ $linecolor: #c7c7c7;
 }
 
 body{
+	background: -webkit-linear-gradient(#fff, #E8EBEB);
 
 }
 
 nav{
-	background-color: white;
+	background: -webkit-linear-gradient(#fff, #E8EBEB);
 	width: 100%;
 	display: inline-block;
 	margin: 5px 0px;
@@ -32,7 +33,7 @@ nav{
 		text-align: center;
 		//height: 95px;
 		display: inline-block;
-		background-color: white;
+		//background-color: white;
 		
 		img{
 			margin-left: 100px;
@@ -97,6 +98,7 @@ div#myCarousel{
 
 
 	.carousel-indicators{
+		z-index: 0;
 		.active{
 			 background-color: #7D8ADE;
 
@@ -127,10 +129,10 @@ div#myCarousel{
 		border: 0px;
 
 
-		border-radius: 10px;
-		-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-		-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-		box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		//border-radius: 10px;
+		//-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		//-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		//box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 		
 		div.item{
 			text-align: center;
@@ -139,14 +141,14 @@ div#myCarousel{
 
 
 			div.carousel-caption{
-				right: 26%;
+				right: 40%;
 				left: 6%;
 				margin-right: 250px;
 				color: #282828;
 				//width: 25%;
 				font-size: 14px;
 				text-shadow: 0 0px 0px rgba(0,0,0,.0);
-				padding-bottom: 4px;
+				bottom: 100px;
 
 				p{
 
@@ -158,18 +160,20 @@ div#myCarousel{
 				width: 100%;
 				
 				//height: 300px;
-				border-radius: 10px;
+				//border-radius: 10px;
 			}
 		}
 	}
 }
 
 .first{
-	background: -webkit-linear-gradient(#fff, #E8EBEB);
+	//background: -webkit-linear-gradient(#fff, #E8EBEB);
 	//background-color: #6495CC;
 	border-bottom: 1px solid $linecolor;
 	//margin-right: 200px;
 	//margin-left: 200px;
+	padding: 0px;
+	width: 100%;
 
 	
 }
@@ -190,10 +194,10 @@ div#myCarousel{
 	margin-left: auto;
 	margin-right: auto;
 	//-webkit-box-shadow: 0px 0px 5px grey;
-	padding: 40px;
+	//padding: 40px;
 	
-	width: 70%;
-	border-radius: 10px;
+	width: 100%;
+	//border-radius: 10px;
 }
 
 .container-box-2{
@@ -277,76 +281,78 @@ div#myCarousel{
 
 	.buttons-item-box-content{
 		display: inline-block;
-		margin-top: 60px;
-		margin-left: 75px;
+		//margin-top: 60px;
+		//margin-left: 75px;
+		position: relative;
+		left: 17%;
+		bottom: 80px;
+		z-index: 1;
 		.buttons-item-box{
 			background-color: #00A7D9;
 			height: 160px;
-			margin-right: 10px;
-			margin-bottom: 10px;
+			//border-radius: 10px;
+			z-index: 2;
+			//margin-right: 10px;
+			//margin-bottom: 10px;
 			//margin-left: 75px;
+		
+
+			span{
+				font-size: 60px;
+				color: white;
+				margin-top: 10px;
+				
+			}
+			p{
+				font-size: 14px;
+				color: white;
+				font-weight: bold;
+				margin-top: 10px;
+				
+				
+
+			}
 		}
 		.buttons-item-box:hover{
 			-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 			-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 			box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+			
+			//background-color: #980101;
+			background: -webkit-linear-gradient(#fff, #E8EBEB);
+			span{
+				color: #005290;
+				
 
-			background-color: #00538D;
+			}
+			p{
+				color: #005290;
+
+			}
+			
 
 		}
 		.b1{
 			
-			background-color: #00A7D9;
-			span{
-				font-size: 90px;
-				color: white;
-				margin-top: 35px;
-			}
-			p{
-				font-size: 14px;
-				color: white;
-				font-weight: bold;
-			}
+			background-color: #005290;
+			border-top-left-radius: 15px;
+			border-bottom-left-radius: 15px;
 		}
+		
 		.b2{
-			background-color: #00D986;
-			span{
-				font-size: 90px;
-				color: white;
-				margin-top: 35px;
-			}
-			p{
-				font-size: 14px;
-				color: white;
-				font-weight: bold;
-			}
+			background-color: #007790;
+		
 		}
 		.b3{
 			
-			background-color: #D9008F;
-			span{
-				font-size: 90px;
-				color: white;
-				margin-top: 35px;
-			}
-			p{
-				font-size: 14px;
-				color: white;
-				font-weight: bold;
-			}
+			background-color: #008B90;
+		
 		}
 		.b4{
-			background-color: #00A7D9;
-			span{
-				font-size: 90px;
-				color: white;
-				margin-top: 35px;
-			}
-			p{
-				font-size: 14px;
-				color: white;
-				font-weight: bold;
-			}
+			background-color: #007790;
+			border-top-right-radius: 15px;
+			border-bottom-right-radius: 15px;
+		
 		}
 
 	}
@@ -356,14 +362,12 @@ div#myCarousel{
 		//background-color: #00A7D9;
 		//border: 1px solid #00A7D9;
 		border-radius: 10px;
-		margin-top: 40px;
+		//margin-top: 40px;
 		//height: 200px;
 		margin-right: 45px;
 		//padding: 0px;
 		margin-left: 165px;
-		iframe{
-			border-radius: 10px;
-		}
+		
 
 		h2{
 			
@@ -381,13 +385,7 @@ div#myCarousel{
 			margin-top: 10px;
 
 		}
-		/*img:hover{
-			width: 140px;
-			transition: width 0.5s linear 0.1s;
-		}*/
-		.fa{
-			font-size: 60px;
-		}
+		
 
 	}
 }
