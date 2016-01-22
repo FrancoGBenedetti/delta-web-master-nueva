@@ -409,10 +409,14 @@ div#myCarousel{
 .line{
 	display: inline-block;
 	vertical-align: middle;
-	background-color: black;
-	height: 8px;
-	width: 100px;
+	background-color: #E8EAEA;
+	border-top: 1px solid rgba(255,255,255,0.8);
+	height: 1px;
+	width: 40px;
 	border-radius: 4px;
+	-webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .producto{
@@ -421,10 +425,14 @@ div#myCarousel{
 	align-items: center; 
 	justify-content: center;
 	height: 64px;
-	width: 64px;
-	border-radius: 50%;
-	background-color: #0000ee;
+	width: 150px;
+	//border-radius: 50%;
+	background-color: #EBEBEB;
 	cursor: pointer;
+	color: #3C486E;
+	font-weight: bold;
+	border-radius: 10px;
+	border-top: 1px solid rgba(255,255,255,0.8);
 }
 
 .producto .producto-tooltip{
@@ -444,7 +452,13 @@ div#myCarousel{
 }
 
 .producto.selected{
-	background-color: #0000aa;
+	background-color: #007790;
+	color: white;
+	border-top: 1px solid rgba(255,255,255,0.8);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+			
 }
 
 .producto.selected .producto-tooltip{
