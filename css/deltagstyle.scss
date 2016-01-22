@@ -392,3 +392,65 @@ div#myCarousel{
 	}
 }
 
+.productos{
+	background-color: red;
+}
+
+.productos-select{
+	background-color: green;
+	padding: 16px;
+}
+
+.productos-info{
+	height: 420px;
+	width: 60%;
+	margin: 0 auto;
+	background-color: yellow;
+	padding: 24px;
+	border: 1px solid black;
+}
+
+.line{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: black;
+	height: 8px;
+	width: 100px;
+	border-radius: 4px;
+}
+
+.producto{
+	position: relative;
+	display: inline-flex;
+	align-items: center; 
+	justify-content: center;
+	height: 64px;
+	width: 64px;
+	border-radius: 50%;
+	background-color: #0000ee;
+	cursor: pointer;
+}
+
+.producto .producto-tooltip{
+	visibility: hidden;
+	background-color: yellow;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	height: 32px;
+	width: 32px;
+
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -16px;
+	z-index: 100;
+}
+
+.producto.selected{
+	background-color: #0000aa;
+}
+
+.producto.selected .producto-tooltip{
+	visibility: visible;
+}
