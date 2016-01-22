@@ -305,12 +305,7 @@ div#myCarousel div.carousel-inner div.item img {
   font-size: 60px;
 }
 
-.productos {
-  background-color: red;
-}
-
 .productos-select {
-  background-color: green;
   padding: 16px;
 }
 
@@ -318,7 +313,7 @@ div#myCarousel div.carousel-inner div.item img {
   height: 420px;
   width: 60%;
   margin: 0 auto;
-  background-color: yellow;
+  background-color: #EaEaEa;
   padding: 24px;
   border: 1px solid black;
 }
@@ -346,16 +341,16 @@ div#myCarousel div.carousel-inner div.item img {
 
 .producto .producto-tooltip {
   visibility: hidden;
-  background-color: yellow;
-  color: white;
-  text-align: center;
-  padding: 8px;
-  height: 32px;
-  width: 32px;
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 24px solid #EaEaEa;
   position: absolute;
   top: 100%;
   left: 50%;
   margin-left: -16px;
+  margin-top: 4px;
   z-index: 100;
 }
 
