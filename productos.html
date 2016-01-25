@@ -25,7 +25,7 @@
 				  <li><a href="#">NOTICIAS</a></li>
 				  <li><a href="deltawebempresa.html">QUIENES SOMOS</a></li>
 				  <li><a href="productos.html">PRODUCTOS</a></li>
-				  <li><a href="#">CONTACTO</a></li>
+				  <li><a href="contacto.html">CONTACTO</a></li>
 				</ul>
       		</nav>
     	</div>
@@ -116,6 +116,9 @@
 					<img src="http://placehold.it/320x240" alt="producto">
 					<h1 class="producto-nombre"></h1>
 					<p class="producto-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, modi quis nam necessitatibus odio ipsum ullam fugiat. Itaque assumenda dolor nisi at hic, dignissimos sit quam pariatur amet numquam error!</p>
+					<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#productos-modal">
+						Descripción Técnica
+					</button>
 				</div>
 			</div>
 		</div>
@@ -128,11 +131,37 @@
         <span class="footer-content">&copy; 2016 Delta G. Todos los derechos reservados.</span>
         <span class=" footer-social">       
           <a href="http://www.facebook.com/"><i class="fa fa-facebook-square fa-3x"></i></a>&nbsp;&nbsp;
-          <a href="http://www.twitter.com/"><i class="fa fa-twitter-square fa-3x"></i>&nbsp;&nbsp;
+          <a href="http://www.twitter.com/"><i class="fa fa-twitter-square fa-3x"></i></a>&nbsp;&nbsp;
         </span>
       </div>
     </div>
   </footer>
+
+  <!-- Modal Message -->
+	<div class="modal fade" id="productos-modal" tabindex="-1" role="dialog" aria-labelledby="Productos Delta G">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title producto-nombre" id="myModalLabel">Enviar Mensaje</h4>
+          </div>
+          <div class="modal-body producto-descripcion-tecnica">
+          	<div class="row">
+          		<div class="col-md-6"><h3>Ventajas</h3></div>
+          		<div class="col-md-6"><h3>Cosas Técnicas</h3></div>
+          	</div>
+          	<div class="row">
+          		<div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis blanditiis quis repellat animi dolorum reprehenderit iure, officiis qui est voluptatem ad quibusdam neque necessitatibus delectus quod, voluptate id illum vel.</div>
+          		<div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, vero suscipit alias repellendus in ab officiis ipsum amet molestias eveniet optio laudantium veniam asperiores quidem! Optio repellat iure voluptatibus?</div>
+          	</div>
+          </div>
+          <div class="modal-footer">
+            <!--<button id="contact-msg-btn" type="button" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>-->
+          </div>
+        </div>
+      </div>
+    </div>
     
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

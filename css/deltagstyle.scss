@@ -462,7 +462,6 @@ div#myCarousel{
 }
 
 .productos-info{
-	height: 420px;
 	width: 60%;
 	margin: 0 auto;
 	background-color: #EaEaEa;
@@ -527,4 +526,8 @@ div#myCarousel{
 
 .producto.selected .producto-tooltip{
 	visibility: visible;
+}
+
+.contacto{
+	margin-top: 48px;
 }
