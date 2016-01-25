@@ -11,14 +11,53 @@ body{
 	background: -webkit-linear-gradient(#fff, #E8EBEB);
 
 }
+.secondbar{
+	height: 40px;
+	background-color: #0080B5;
+	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	ul{
+		
+		
+		color: white;
+		text-align: right;
+		margin: 0px;
+		padding: 0px;
+		li{
+			display: inline-block;
+			padding: 10px;
+			margin-right: 10px;
 
+			
+			a{
+			text-decoration: none;
+			color: white;
+			font-size: 14px;
+			
+
+			}
+		}
+
+		li:hover{
+			background-color: rgba(139,178,175,0.3);
+			height: 100%;
+			-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+		}
+	}
+
+
+}
 nav{
-	background: -webkit-linear-gradient(#fff, #E8EBEB);
+	
+	
 	width: 100%;
 	display: inline-block;
 	margin: 5px 0px;
 	margin-bottom: -15px;
-	border-bottom: 1px solid $linecolor;
+	
 	//-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 	//-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 	//box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
@@ -59,7 +98,7 @@ nav{
 
 			
 			a{
-				color: black;
+				color: white;
 
 			}
 			a:hover{
@@ -84,6 +123,8 @@ nav{
 	padding-bottom: 10px;
 	margin-bottom: 0px;
 	//background-color: #0087BC;
+	background: -webkit-linear-gradient(#fff, #F9FDFD);
+	border-bottom: 1px solid $linecolor;
 
 	//border: 1px solid #282828;
 
@@ -149,6 +190,10 @@ div#myCarousel{
 				font-size: 14px;
 				text-shadow: 0 0px 0px rgba(0,0,0,.0);
 				bottom: 100px;
+				span{
+					font-size: 60px;
+					color: #CE1515;
+				}
 
 				p{
 
@@ -289,7 +334,7 @@ div#myCarousel{
 		z-index: 1;
 		.buttons-item-box{
 			background-color: #00A7D9;
-			height: 160px;
+			//height: 160px;
 			//border-radius: 10px;
 			z-index: 2;
 			//margin-right: 10px;
@@ -301,6 +346,7 @@ div#myCarousel{
 				font-size: 60px;
 				color: white;
 				margin-top: 10px;
+				margin-bottom: 20px;
 				
 			}
 			p{
@@ -313,7 +359,7 @@ div#myCarousel{
 
 			}
 		}
-		.buttons-item-box:hover{
+		.buttons-item-box2:hover{
 			-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 			-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 			box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
@@ -336,7 +382,7 @@ div#myCarousel{
 			
 			background-color: #005290;
 			border-top-left-radius: 15px;
-			border-bottom-left-radius: 15px;
+			
 		}
 		
 		.b2{
@@ -345,14 +391,32 @@ div#myCarousel{
 		}
 		.b3{
 			
-			background-color: #008B90;
+			background-color: #005290;
 		
 		}
 		.b4{
 			background-color: #007790;
 			border-top-right-radius: 15px;
-			border-bottom-right-radius: 15px;
+			
 		
+		}
+		.b5{
+			//border-bottom-left-radius: 15px;
+			background-color: #119000;
+		}
+		.b8{
+			//border-bottom-right-radius: 15px;
+			background-color: #30960B
+
+		}
+		.b6{
+
+			background-color: #30960B;
+
+		}
+		.b7{
+			background-color: #119000;
+
 		}
 
 	}

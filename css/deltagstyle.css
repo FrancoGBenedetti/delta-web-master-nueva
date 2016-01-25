@@ -7,13 +7,46 @@ body {
   background: -webkit-linear-gradient(#fff, #E8EBEB);
 }
 
+.secondbar {
+  height: 40px;
+  background-color: #0080B5;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.secondbar ul {
+  color: white;
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+.secondbar ul li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.secondbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.secondbar ul li:hover {
+  background-color: rgba(139, 178, 175, 0.3);
+  height: 100%;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
 nav {
-  background: -webkit-linear-gradient(#fff, #E8EBEB);
   width: 100%;
   display: inline-block;
   margin: 5px 0px;
   margin-bottom: -15px;
-  border-bottom: 1px solid #c7c7c7;
 }
 
 nav figure {
@@ -45,7 +78,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: white;
 }
 
 nav ul li a:hover {
@@ -65,6 +98,8 @@ nav ul li:hover {
   padding-right: 0px;
   padding-bottom: 10px;
   margin-bottom: 0px;
+  background: -webkit-linear-gradient(#fff, #F9FDFD);
+  border-bottom: 1px solid #c7c7c7;
 }
 
 div#myCarousel {
@@ -113,6 +148,11 @@ div#myCarousel div.carousel-inner div.item div.carousel-caption {
   font-size: 14px;
   text-shadow: 0 0px 0px transparent;
   bottom: 100px;
+}
+
+div#myCarousel div.carousel-inner div.item div.carousel-caption span {
+  font-size: 60px;
+  color: #CE1515;
 }
 
 div#myCarousel div.carousel-inner div.item img {
@@ -197,7 +237,6 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .buttons-item-box-content .buttons-item-box {
   background-color: #00A7D9;
-  height: 160px;
   z-index: 2;
 }
 
@@ -205,6 +244,7 @@ div#myCarousel div.carousel-inner div.item img {
   font-size: 60px;
   color: white;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .content-section .buttons-item-box-content .buttons-item-box p {
@@ -214,25 +254,24 @@ div#myCarousel div.carousel-inner div.item img {
   margin-top: 10px;
 }
 
-.content-section .buttons-item-box-content .buttons-item-box:hover {
+.content-section .buttons-item-box-content .buttons-item-box2:hover {
   -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
   background: -webkit-linear-gradient(#fff, #E8EBEB);
 }
 
-.content-section .buttons-item-box-content .buttons-item-box:hover span {
+.content-section .buttons-item-box-content .buttons-item-box2:hover span {
   color: #005290;
 }
 
-.content-section .buttons-item-box-content .buttons-item-box:hover p {
+.content-section .buttons-item-box-content .buttons-item-box2:hover p {
   color: #005290;
 }
 
 .content-section .buttons-item-box-content .b1 {
   background-color: #005290;
   border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
 .content-section .buttons-item-box-content .b2 {
@@ -240,13 +279,28 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .content-section .buttons-item-box-content .b3 {
-  background-color: #008B90;
+  background-color: #005290;
 }
 
 .content-section .buttons-item-box-content .b4 {
   background-color: #007790;
   border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+}
+
+.content-section .buttons-item-box-content .b5 {
+  background-color: #119000;
+}
+
+.content-section .buttons-item-box-content .b8 {
+  background-color: #30960B;
+}
+
+.content-section .buttons-item-box-content .b6 {
+  background-color: #30960B;
+}
+
+.content-section .buttons-item-box-content .b7 {
+  background-color: #119000;
 }
 
 .content-section .contenido {
