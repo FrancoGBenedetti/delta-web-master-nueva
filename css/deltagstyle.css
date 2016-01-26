@@ -9,14 +9,14 @@ body {
 
 .secondbar {
   height: 40px;
-  background-color: #0080B5;
+  background-color: #F9FDFD;
+  border-bottom: 5px solid #282828;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .secondbar ul {
-  color: white;
   text-align: right;
   margin: 0px;
   padding: 0px;
@@ -30,7 +30,7 @@ body {
 
 .secondbar ul li a {
   text-decoration: none;
-  color: white;
+  color: #282828;
   font-size: 14px;
 }
 
@@ -134,6 +134,7 @@ div#myCarousel .carousel-control.left {
 div#myCarousel div.carousel-inner {
   margin-left: 0px;
   border: 0px;
+  border-bottom: 5px solid #282828;
 }
 
 div#myCarousel div.carousel-inner div.item {
@@ -271,7 +272,6 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .buttons-item-box-content .b1 {
   background-color: #005290;
-  border-top-left-radius: 15px;
 }
 
 .content-section .buttons-item-box-content .b2 {
@@ -284,7 +284,6 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .buttons-item-box-content .b4 {
   background-color: #007790;
-  border-top-right-radius: 15px;
 }
 
 .content-section .buttons-item-box-content .b5 {
@@ -304,9 +303,14 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .content-section .contenido {
-  border-radius: 10px;
+  border-right: 1px dashed #c7c7c7;
   margin-right: 45px;
   margin-left: 165px;
+}
+
+.content-section .contenido .contenido2 {
+  width: 70%;
+  margin-right: 70px;
 }
 
 .content-section .contenido h2 {
