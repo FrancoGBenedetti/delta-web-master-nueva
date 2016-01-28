@@ -7,8 +7,68 @@ body {
   background: -webkit-linear-gradient(#fff, #E8EBEB);
 }
 
+/*.secondbar{
+	height: 40px;
+	background-color: #F9FDFD;
+	//border-bottom: 5px solid #282828;
+	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	z-index:500;
+	ul.inicial{
+		
+		
+		//color: #282828;
+		text-align: right;
+		margin: 0px;
+		padding: 0px;
+		.btn-group{
+			.btn{
+				padding: 0px 12px;
+				background-color: #F9FDFD;
+				border-color: #F9FDFD;
+				border-radius: 0px;
+
+			}
+			 .dropdown-toggle.btn-default:hover{
+				background-color: rgba(139,178,175,0.3);
+
+			}
+			.dropdown-menu{
+				border-radius: 0px;
+				background-color: #F9FDFD;
+				left: -150px;
+			}
+		}
+		
+
+		li{
+			display: inline-block;
+			padding: 10px;
+			margin-right: 10px;
+
+			
+			a{
+			text-decoration: none;
+			color: #282828;
+			font-size: 14px;
+			
+
+			}
+		}
+
+		li:hover{
+			background-color: rgba(139,178,175,0.3);
+			height: 100%;
+			-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+		}
+	}
+
+
+}*/
 .secondbar {
-  height: 40px;
   background-color: #F9FDFD;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
@@ -16,73 +76,40 @@ body {
   z-index: 500;
 }
 
-.secondbar ul.inicial {
-  text-align: right;
-  margin: 0px;
-  padding: 0px;
+.secondbar .navbar {
+  margin-bottom: 0px;
 }
 
-.secondbar ul.inicial .btn-group .btn {
-  padding: 0px 12px;
+.secondbar .navbar-default {
+  border-color: white;
   background-color: #F9FDFD;
-  border-color: #F9FDFD;
-  border-radius: 0px;
 }
 
-.secondbar ul.inicial .btn-group .dropdown-toggle.btn-default:hover {
-  background-color: rgba(139, 178, 175, 0.3);
-}
-
-.secondbar ul.inicial .btn-group .dropdown-menu {
-  border-radius: 0px;
-  background-color: #F9FDFD;
-  left: -150px;
-}
-
-.secondbar ul.inicial li {
-  display: inline-block;
-  padding: 10px;
-  margin-right: 10px;
-}
-
-.secondbar ul.inicial li a {
-  text-decoration: none;
-  color: #282828;
-  font-size: 14px;
-}
-
-.secondbar ul.inicial li:hover {
-  background-color: rgba(139, 178, 175, 0.3);
-  height: 100%;
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-}
-
-nav {
+.logo-bar {
   width: 100%;
   display: inline-block;
   margin: 5px 0px;
   margin-bottom: -15px;
 }
 
-nav figure {
+.logo-bar figure {
   padding: 6px;
-  text-align: center;
+  text-align: left;
   display: inline-block;
 }
 
-nav figure img {
+.logo-bar figure img {
+  margin-left: 100px;
   width: 120px;
 }
 
-nav ul {
+.logo-bar ul {
   text-align: right;
   padding: 0px;
   margin: 0px;
 }
 
-nav ul li {
+.logo-bar ul li {
   display: inline-block;
   text-decoration: none;
   padding: 25px;
@@ -93,16 +120,16 @@ nav ul li {
   vertical-align: center;
 }
 
-nav ul li a {
+.logo-bar ul li a {
   color: white;
 }
 
-nav ul li a:hover {
+.logo-bar ul li a:hover {
   text-decoration: none;
   color: black;
 }
 
-nav ul li:hover {
+.logo-bar ul li:hover {
   background-color: rgba(139, 178, 175, 0.3);
   height: 100%;
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
@@ -110,11 +137,13 @@ nav ul li:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.navbar {
+.bar-bar {
   padding-right: 0px;
   padding-bottom: 10px;
   margin-bottom: 0px;
   background: -webkit-linear-gradient(#fff, #F9FDFD);
+  background: -moz-linear-gradient(#fff, #F9FDFD);
+  background: linear-gradient(#fff, #F9FDFD);
   border-bottom: 1px solid #c7c7c7;
 }
 
@@ -138,7 +167,6 @@ div#myCarousel .carousel-indicators li {
 div#myCarousel .carousel-control.right {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 50%);
   padding-right: 5px;
-  right: -15px;
 }
 
 div#myCarousel .carousel-control.left {
@@ -193,8 +221,6 @@ div#myCarousel div.carousel-inner div.item img {
 
 .container-box {
   margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
 }
 
@@ -207,15 +233,18 @@ div#myCarousel div.carousel-inner div.item img {
 
 .container-box-2 .clients {
   text-align: center;
-  padding: 20px;
-  padding-bottom: 5px;
+  padding-top: 10px;
   background-color: #f4f4f4;
+  background: -webkit-linear-gradient(#F9FDFD, #EEF1F1);
+  background: -moz-linear-gradient(#F9FDFD, #EEF1F1);
+  background: linear-gradient(#F9FDFD, #EEF1F1);
   width: 100%;
 }
 
 .container-box-2 .clients figure {
   display: inline-block;
   border-right: 1px dashed #c7c7c7;
+  padding: 10px 0px;
   margin-right: 25px;
 }
 
@@ -224,7 +253,12 @@ div#myCarousel div.carousel-inner div.item img {
   margin-right: 25px;
 }
 
-.container-box-2 .clients div p {
+.container-box-2 .clients .row {
+  text-align: center;
+}
+
+.container-box-2 .clients .row p {
+  margin-top: 10px;
   color: #00A7D9;
   font-size: 14px;
   font-weight: bold;
@@ -247,7 +281,6 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .buttons-item-box-content {
   display: inline-block;
-  position: relative;
   left: 17%;
   bottom: 80px;
   z-index: 1;
@@ -276,20 +309,11 @@ div#myCarousel div.carousel-inner div.item img {
   -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-  background: -webkit-linear-gradient(#fff, #E8EBEB);
-}
-
-.content-section .buttons-item-box-content .buttons-item-box2:hover span {
-  color: #005290;
-}
-
-.content-section .buttons-item-box-content .buttons-item-box2:hover p {
-  color: #005290;
+  background-color: #08983A;
 }
 
 .content-section .buttons-item-box-content .b1 {
   background-color: #005290;
-  border-top-left-radius: 15px;
 }
 
 .content-section .buttons-item-box-content .b2 {
@@ -302,23 +326,22 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .buttons-item-box-content .b4 {
   background-color: #007790;
-  border-top-right-radius: 15px;
 }
 
 .content-section .buttons-item-box-content .b5 {
-  background-color: #119000;
+  background-color: #07AF41;
 }
 
 .content-section .buttons-item-box-content .b8 {
-  background-color: #30960B;
+  background-color: #07AF41;
 }
 
 .content-section .buttons-item-box-content .b6 {
-  background-color: #30960B;
+  background-color: #07AF41;
 }
 
 .content-section .buttons-item-box-content .b7 {
-  background-color: #119000;
+  background-color: #07AF41;
 }
 
 .content-section .contenido {
@@ -417,4 +440,10 @@ div#myCarousel div.carousel-inner div.item img {
 
 .contacto {
   margin-top: 48px;
+}
+
+.footer {
+  background: -webkit-linear-gradient(#EEF2F2, #E3E4E4);
+  background: -moz-linear-gradient(#EEF2F2, #E3E4E4);
+  background: linear-gradient(#EEF2F2, #E3E4E4);
 }

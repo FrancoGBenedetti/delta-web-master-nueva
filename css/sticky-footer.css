@@ -7,7 +7,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 140px;
+  margin-bottom: 100px;
 }
 
 .footer {
@@ -21,7 +21,7 @@ body {
   
 
   padding: 24px 32px;
-  border: 1px solid #c7c7c7;*/
+  border-top: 1px solid #c7c7c7;*/
 
 }
 

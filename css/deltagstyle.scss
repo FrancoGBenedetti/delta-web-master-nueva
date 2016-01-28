@@ -11,7 +11,7 @@ body{
 	background: -webkit-linear-gradient(#fff, #E8EBEB);
 
 }
-.secondbar{
+/*.secondbar{
 	height: 40px;
 	background-color: #F9FDFD;
 	//border-bottom: 5px solid #282828;
@@ -71,8 +71,26 @@ body{
 	}
 
 
+}*/
+
+.secondbar{
+	background-color: #F9FDFD;
+	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	z-index: 500;
+	.navbar{ 
+		margin-bottom: 0px;
+
+	}
+	.navbar-default{
+		border-color: white;
+		background-color: #F9FDFD;
+	}
 }
-nav{
+
+
+.logo-bar{
 	
 	
 	width: 100%;
@@ -91,13 +109,13 @@ nav{
 	figure{
 		padding: 6px;
 		//width: 5px;
-		text-align: center;
+		text-align: left;
 		//height: 95px;
 		display: inline-block;
 		//background-color: white;
 		
 		img{
-			//margin-left: 100px;
+			margin-left: 100px;
 			width: 120px;
 		}
 	}
@@ -140,12 +158,14 @@ nav{
 	}
 }
 
-.navbar{
+.bar-bar{
 	padding-right: 0px;
 	padding-bottom: 10px;
 	margin-bottom: 0px;
 	//background-color: #0087BC;
 	background: -webkit-linear-gradient(#fff, #F9FDFD);
+	background: -moz-linear-gradient(#fff, #F9FDFD);
+	background: linear-gradient(#fff, #F9FDFD);
 	border-bottom: 1px solid $linecolor;
 
 	//border: 1px solid #282828;
@@ -178,7 +198,7 @@ div#myCarousel{
 	.carousel-control.right{
 		    background-image: linear-gradient(to right,rgba(255, 255, 255, 0) 0,rgba(255, 255, 255, 0) 50%);
 		    padding-right: 5px;
-			right: -15px;
+			//right: -15px;
 	}
 	
 	.carousel-control.left{
@@ -258,8 +278,8 @@ div#myCarousel{
 .container-box{
 	
 	margin-top: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	//margin-left: auto;
+	//margin-right: auto;
 	//-webkit-box-shadow: 0px 0px 5px grey;
 	//padding: 40px;
 	
@@ -273,13 +293,17 @@ div#myCarousel{
 	-webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+		
 	
 	.clients{
 		
 		text-align: center;
-		padding:20px;
-		padding-bottom: 5px;
+		//padding:20px;
+		padding-top: 10px;
 		background-color: #f4f4f4;
+		background: -webkit-linear-gradient(#F9FDFD, #EEF1F1);
+		background: -moz-linear-gradient(#F9FDFD, #EEF1F1);
+		background: linear-gradient(#F9FDFD, #EEF1F1);
 		//border: 1px solid $linecolor;
 		
 		//border-radius: 10px;
@@ -288,7 +312,7 @@ div#myCarousel{
 		figure{
 			display: inline-block;
 			border-right: 1px dashed $linecolor;
-			
+			padding: 10px 0px;
 			margin-right: 25px;
 			
 			img{
@@ -298,9 +322,10 @@ div#myCarousel{
 			}
 			
 		}
-		div{
+		.row{
+			text-align: center;
 			p{
-				//margin-top: 30px;
+				margin-top: 10px;
 				color: #00A7D9;
 				font-size: 14px;
 				font-weight: bold;
@@ -309,6 +334,7 @@ div#myCarousel{
 			}
 			
 		}
+	
 	}
 }
 
@@ -350,13 +376,13 @@ div#myCarousel{
 		display: inline-block;
 		//margin-top: 60px;
 		//margin-left: 75px;
-		position: relative;
+		//position: relative;
 		left: 17%;
 		bottom: 80px;
 		z-index: 1;
 		.buttons-item-box{
 			background-color: #00A7D9;
-			//height: 160px;
+			//height: 40px;
 			//border-radius: 10px;
 			z-index: 2;
 			//margin-right: 10px;
@@ -386,24 +412,18 @@ div#myCarousel{
 			-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 			box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 			
-			//background-color: rgba(139,178,175,0.3);
-			background: -webkit-linear-gradient(#fff, #E8EBEB);
-			span{
-				color: #005290;
-				
-
-			}
-			p{
-				color: #005290;
-
-			}
+			background-color: #08983A;
+			//background: -webkit-linear-gradient(#fff, #E8EBEB);
+			//background: -moz-linear-gradient(#fff, #E8EBEB);
+			//background: linear-gradient(#fff, #E8EBEB);
+		
 			
 
 		}
 		.b1{
 			
 			background-color: #005290;
-			border-top-left-radius: 15px;
+			//border-top-left-radius: 15px;
 			
 		}
 		
@@ -418,29 +438,29 @@ div#myCarousel{
 		}
 		.b4{
 			background-color: #007790;
-			border-top-right-radius: 15px;
+			//border-top-right-radius: 15px;
 			
 		
 		}
 		.b5{
 			//border-bottom-left-radius: 15px;
-			background-color: #119000;
+			background-color: #07AF41;
 			
 		}
 		.b8{
 			//border-bottom-right-radius: 15px;
-			background-color: #30960B;
+			background-color: #07AF41;
 			
 
 		}
 		.b6{
 
-			background-color: #30960B;
+			background-color: #07AF41;
 			
 
 		}
 		.b7{
-			background-color: #119000;
+			background-color: #07AF41;
 			
 
 		}
@@ -561,4 +581,10 @@ div#myCarousel{
 
 .contacto{
 	margin-top: 48px;
+}
+
+.footer{
+	background: -webkit-linear-gradient(#EEF2F2, #E3E4E4);
+	background: -moz-linear-gradient(#EEF2F2, #E3E4E4);
+	background: linear-gradient(#EEF2F2, #E3E4E4);
 }
