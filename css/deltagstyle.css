@@ -248,6 +248,7 @@ div#myCarousel div.carousel-inner div.item img {
 .content-section .buttons-item-box-content {
   display: inline-block;
   position: relative;
+  left: 17%;
   bottom: 80px;
   z-index: 1;
 }
@@ -416,33 +417,4 @@ div#myCarousel div.carousel-inner div.item img {
 
 .contacto {
   margin-top: 48px;
-}
-
-.productos2 {
-  padding: 40px;
-  background-color: #f0f0f0;
-  border-bottom: 1px dashed #c7c7c7;
-}
-
-.productos2 img {
-  height: 180px;
-  width: 180px;
-  border-radius: 50%;
-}
-
-.productos2 p {
-  position: relative;
-  text-align: justify;
-}
-
-.valign {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
-}
-
-@media (max-width: 400px) {
-  .productos2 img {
-    margin-bottom: 16px;
-  }
 }
