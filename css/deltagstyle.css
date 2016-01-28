@@ -10,31 +10,48 @@ body {
 .secondbar {
   height: 40px;
   background-color: #F9FDFD;
-  border-bottom: 5px solid #282828;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  z-index: 500;
 }
 
-.secondbar ul {
+.secondbar ul.inicial {
   text-align: right;
   margin: 0px;
   padding: 0px;
 }
 
-.secondbar ul li {
+.secondbar ul.inicial .btn-group .btn {
+  padding: 0px 12px;
+  background-color: #F9FDFD;
+  border-color: #F9FDFD;
+  border-radius: 0px;
+}
+
+.secondbar ul.inicial .btn-group .dropdown-toggle.btn-default:hover {
+  background-color: rgba(139, 178, 175, 0.3);
+}
+
+.secondbar ul.inicial .btn-group .dropdown-menu {
+  border-radius: 0px;
+  background-color: #F9FDFD;
+  left: -150px;
+}
+
+.secondbar ul.inicial li {
   display: inline-block;
   padding: 10px;
   margin-right: 10px;
 }
 
-.secondbar ul li a {
+.secondbar ul.inicial li a {
   text-decoration: none;
   color: #282828;
   font-size: 14px;
 }
 
-.secondbar ul li:hover {
+.secondbar ul.inicial li:hover {
   background-color: rgba(139, 178, 175, 0.3);
   height: 100%;
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
@@ -56,7 +73,6 @@ nav figure {
 }
 
 nav figure img {
-  margin-left: 100px;
   width: 120px;
 }
 
@@ -134,7 +150,9 @@ div#myCarousel .carousel-control.left {
 div#myCarousel div.carousel-inner {
   margin-left: 0px;
   border: 0px;
-  border-bottom: 5px solid #282828;
+  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
 div#myCarousel div.carousel-inner div.item {
@@ -182,9 +200,9 @@ div#myCarousel div.carousel-inner div.item img {
 
 .container-box-2 {
   margin-top: 20px;
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .container-box-2 .clients {
@@ -207,7 +225,6 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .container-box-2 .clients div p {
-  margin-top: 30px;
   color: #00A7D9;
   font-size: 14px;
   font-weight: bold;
@@ -272,6 +289,7 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .buttons-item-box-content .b1 {
   background-color: #005290;
+  border-top-left-radius: 15px;
 }
 
 .content-section .buttons-item-box-content .b2 {
@@ -284,6 +302,7 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .buttons-item-box-content .b4 {
   background-color: #007790;
+  border-top-right-radius: 15px;
 }
 
 .content-section .buttons-item-box-content .b5 {
@@ -304,13 +323,12 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .contenido {
   border-right: 1px dashed #c7c7c7;
-  margin-right: 45px;
-  margin-left: 165px;
 }
 
 .content-section .contenido .contenido2 {
-  width: 70%;
-  margin-right: 70px;
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 25%;
 }
 
 .content-section .contenido h2 {

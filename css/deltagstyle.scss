@@ -14,17 +14,38 @@ body{
 .secondbar{
 	height: 40px;
 	background-color: #F9FDFD;
-	border-bottom: 5px solid #282828;
+	//border-bottom: 5px solid #282828;
 	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	ul{
+	z-index:500;
+	ul.inicial{
 		
 		
 		//color: #282828;
 		text-align: right;
 		margin: 0px;
 		padding: 0px;
+		.btn-group{
+			.btn{
+				padding: 0px 12px;
+				background-color: #F9FDFD;
+				border-color: #F9FDFD;
+				border-radius: 0px;
+
+			}
+			 .dropdown-toggle.btn-default:hover{
+				background-color: rgba(139,178,175,0.3);
+
+			}
+			.dropdown-menu{
+				border-radius: 0px;
+				background-color: #F9FDFD;
+				left: -150px;
+			}
+		}
+		
+
 		li{
 			display: inline-block;
 			padding: 10px;
@@ -76,7 +97,7 @@ nav{
 		//background-color: white;
 		
 		img{
-			margin-left: 100px;
+			//margin-left: 100px;
 			width: 120px;
 		}
 	}
@@ -169,12 +190,12 @@ div#myCarousel{
 	div.carousel-inner{
 		margin-left: 0px;
 		border: 0px;
-		border-bottom: 5px solid #282828;
+		//border-bottom: 5px solid #282828;
 
 		//border-radius: 10px;
-		//-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-		//-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-		//box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 		
 		div.item{
 			text-align: center;
@@ -249,9 +270,9 @@ div#myCarousel{
 .container-box-2{
 	//background-color: rgba(0,143,195,0.3);
 	margin-top: 20px;
-	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
 	
 	.clients{
 		
@@ -279,7 +300,7 @@ div#myCarousel{
 		}
 		div{
 			p{
-				margin-top: 30px;
+				//margin-top: 30px;
 				color: #00A7D9;
 				font-size: 14px;
 				font-weight: bold;
@@ -365,7 +386,7 @@ div#myCarousel{
 			-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 			box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 			
-			//background-color: #980101;
+			//background-color: rgba(139,178,175,0.3);
 			background: -webkit-linear-gradient(#fff, #E8EBEB);
 			span{
 				color: #005290;
@@ -382,7 +403,7 @@ div#myCarousel{
 		.b1{
 			
 			background-color: #005290;
-			//border-top-left-radius: 15px;
+			border-top-left-radius: 15px;
 			
 		}
 		
@@ -397,26 +418,30 @@ div#myCarousel{
 		}
 		.b4{
 			background-color: #007790;
-			//border-top-right-radius: 15px;
+			border-top-right-radius: 15px;
 			
 		
 		}
 		.b5{
 			//border-bottom-left-radius: 15px;
 			background-color: #119000;
+			
 		}
 		.b8{
 			//border-bottom-right-radius: 15px;
-			background-color: #30960B
+			background-color: #30960B;
+			
 
 		}
 		.b6{
 
 			background-color: #30960B;
+			
 
 		}
 		.b7{
 			background-color: #119000;
+			
 
 		}
 
@@ -429,12 +454,13 @@ div#myCarousel{
 		
 		//margin-top: 40px;
 		//height: 200px;
-		margin-right: 45px;
+		//margin-right: 45px;
 		//padding: 0px;
-		margin-left: 165px;
+		//margin-left: 10px;
 		.contenido2{
-			width: 70%;
-			margin-right: 70px;
+			width: 50%;
+			margin-right: 0px;
+			margin-left: 25%
 		}
 		
 
