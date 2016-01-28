@@ -446,3 +446,7 @@ div#myCarousel div.carousel-inner div.item img {
     margin-bottom: 16px;
   }
 }
+
+.modal-body {
+  text-align: center;
+}
