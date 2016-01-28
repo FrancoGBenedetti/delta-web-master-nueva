@@ -351,9 +351,9 @@ div#myCarousel{
 		//margin-top: 60px;
 		//margin-left: 75px;
 		position: relative;
+		left: 17%;
 		bottom: 80px;
 		z-index: 1;
-
 		.buttons-item-box{
 			background-color: #00A7D9;
 			//height: 160px;
@@ -562,33 +562,4 @@ div#myCarousel{
 .contacto{
 	margin-top: 48px;
 	
-}
-
-.productos2{
-	padding: 40px;
-	background-color: #f0f0f0;
-	border-bottom: 1px dashed $linecolor;
-	
-	img{
-		height: 180px;
-		width: 180px;
-		border-radius: 50%;
-	}
-
-	p{
-		position: relative;
-		text-align: justify;
-	}
-}
-
-.valign{
-	display: inline-block;
-	vertical-align: middle;
-	float: none;
-}
-
-@media(max-width:400px){
-	.productos2 img{
-		margin-bottom: 16px;
-	}
 }
