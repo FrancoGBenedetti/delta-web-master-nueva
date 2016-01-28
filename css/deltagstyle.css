@@ -274,9 +274,17 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .content-section {
-  text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.content-section .b1 {
+  background-color: #005290;
+}
+
+.content-section .b2 {
+  background-color: #007790;
 }
 
 .content-section .buttons-item-box {
@@ -285,97 +293,50 @@ div#myCarousel div.carousel-inner div.item img {
 
 .content-section .buttons-item-box span {
   font-size: 60px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .content-section .buttons-item-box p {
   font-size: 14px;
   color: white;
   font-weight: bold;
-}
-
-.content-section .buttons-item-box-content {
-  display: inline-block;
-  bottom: 80px;
-  z-index: 1;
-}
-
-.content-section .buttons-item-box-content .buttons-item-box {
-  z-index: 2;
-}
-
-.content-section .buttons-item-box-content .buttons-item-box span {
-  font-size: 60px;
-  color: white;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.content-section .buttons-item-box-content .buttons-item-box p {
-  font-size: 14px;
-  color: white;
-  font-weight: bold;
   margin-top: 10px;
 }
 
-.content-section .buttons-item-box-content .buttons-item-box2:hover {
+.content-section .buttons-item-box2 {
+  background-color: #07AF41;
+  height: 42px;
+}
+
+.content-section .buttons-item-box2:hover {
   -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
   background-color: #08983A;
 }
 
-.content-section .buttons-item-box-content .b1 {
-  background-color: #005290;
-}
-
-.content-section .buttons-item-box-content .b2 {
-  background-color: #007790;
-}
-
-.content-section .buttons-item-box-content .b3 {
-  background-color: #005290;
-}
-
-.content-section .buttons-item-box-content .b4 {
-  background-color: #007790;
-}
-
-.content-section .buttons-item-box-content .b5 {
-  background-color: #07AF41;
-}
-
-.content-section .buttons-item-box-content .b8 {
-  background-color: #07AF41;
-}
-
-.content-section .buttons-item-box-content .b6 {
-  background-color: #07AF41;
-}
-
-.content-section .buttons-item-box-content .b7 {
-  background-color: #07AF41;
-}
-
-.content-section .contenido {
+.contenido {
   border-right: 1px dashed #c7c7c7;
 }
 
-.content-section .contenido .contenido2 {
+.contenido .contenido2 {
   width: 50%;
   margin-right: 0px;
   margin-left: 25%;
 }
 
-.content-section .contenido h2 {
+.contenido h2 {
   font-size: 19px;
   color: #00A7D9;
 }
 
-.content-section .contenido p {
+.contenido p {
   text-align: left;
 }
 
-.content-section .contenido img {
+.contenido img {
   width: 120px;
   border-radius: 10px;
   transition: width 0.5s linear 0.1s;
