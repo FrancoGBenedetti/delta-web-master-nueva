@@ -279,15 +279,27 @@ div#myCarousel div.carousel-inner div.item img {
   margin-bottom: 20px;
 }
 
+.content-section .buttons-item-box {
+  z-index: 2;
+}
+
+.content-section .buttons-item-box span {
+  font-size: 60px;
+}
+
+.content-section .buttons-item-box p {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
 .content-section .buttons-item-box-content {
   display: inline-block;
-  left: 17%;
   bottom: 80px;
   z-index: 1;
 }
 
 .content-section .buttons-item-box-content .buttons-item-box {
-  background-color: #00A7D9;
   z-index: 2;
 }
 
@@ -446,4 +458,33 @@ div#myCarousel div.carousel-inner div.item img {
   background: -webkit-linear-gradient(#EEF2F2, #E3E4E4);
   background: -moz-linear-gradient(#EEF2F2, #E3E4E4);
   background: linear-gradient(#EEF2F2, #E3E4E4);
+}
+
+.productos2 {
+  padding: 40px;
+  background-color: #f0f0f0;
+  border-bottom: 1px dashed #c7c7c7;
+}
+
+.productos2 img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.productos2 p {
+  position: relative;
+  text-align: justify;
+}
+
+.valign {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+@media (max-width: 400px) {
+  .productos2 img {
+    margin-bottom: 16px;
+  }
 }

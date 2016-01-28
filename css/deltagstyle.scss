@@ -367,6 +367,33 @@ div#myCarousel{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	//padding: 40px;
+	.buttons-item-box{
+			//background-color: #00A7D9;
+			//height: 40px;
+			//border-radius: 10px;
+			z-index: 2;
+			//margin-right: 10px;
+			//margin-bottom: 10px;
+			//margin-left: 75px;
+		
+
+			span{
+				font-size: 60px;
+				//color: white;
+				//margin-top: 10px;
+				//margin-bottom: 20px;
+				
+			}
+			p{
+				font-size: 14px;
+				color: white;
+				font-weight: bold;
+				//margin-top: 10px;
+				
+				
+
+			}
+		}
 
 	.container{
 		//border-top: 1px solid #00A7D9;
@@ -377,11 +404,11 @@ div#myCarousel{
 		//margin-top: 60px;
 		//margin-left: 75px;
 		//position: relative;
-		left: 17%;
+		//left: 17%;
 		bottom: 80px;
 		z-index: 1;
 		.buttons-item-box{
-			background-color: #00A7D9;
+			//background-color: #00A7D9;
 			//height: 40px;
 			//border-radius: 10px;
 			z-index: 2;
@@ -587,4 +614,33 @@ div#myCarousel{
 	background: -webkit-linear-gradient(#EEF2F2, #E3E4E4);
 	background: -moz-linear-gradient(#EEF2F2, #E3E4E4);
 	background: linear-gradient(#EEF2F2, #E3E4E4);
+}
+
+.productos2{
+	padding: 40px;
+	background-color: #f0f0f0;
+	border-bottom: 1px dashed $linecolor;
+	
+	img{
+		height: 180px;
+		width: 180px;
+		border-radius: 50%;
+	}
+
+	p{
+		position: relative;
+		text-align: justify;
+	}
+}
+
+.valign{
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+@media(max-width:400px){
+	.productos2 img{
+		margin-bottom: 16px;
+	}
 }
