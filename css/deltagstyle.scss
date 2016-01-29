@@ -367,6 +367,7 @@ div#myCarousel{
 
 
 .content-section{
+	
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -555,7 +556,7 @@ div#myCarousel{
 	background: linear-gradient(#EEF2F2, #E3E4E4);
 }
 
-.productos2{
+.productos{
 	padding: 40px;
 	background-color: #f0f0f0;
 	border-bottom: 1px dashed $linecolor;
@@ -582,4 +583,8 @@ div#myCarousel{
 	.productos2 img{
 		margin-bottom: 16px;
 	}
+}
+
+.modal-body{
+	text-align: center;
 }

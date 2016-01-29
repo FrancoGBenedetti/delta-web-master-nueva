@@ -421,19 +421,19 @@ div#myCarousel div.carousel-inner div.item img {
   background: linear-gradient(#EEF2F2, #E3E4E4);
 }
 
-.productos2 {
+.productos {
   padding: 40px;
   background-color: #f0f0f0;
   border-bottom: 1px dashed #c7c7c7;
 }
 
-.productos2 img {
+.productos img {
   height: 180px;
   width: 180px;
   border-radius: 50%;
 }
 
-.productos2 p {
+.productos p {
   position: relative;
   text-align: justify;
 }
@@ -448,4 +448,8 @@ div#myCarousel div.carousel-inner div.item img {
   .productos2 img {
     margin-bottom: 16px;
   }
+}
+
+.modal-body {
+  text-align: center;
 }
