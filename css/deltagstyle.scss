@@ -354,10 +354,9 @@ div#myCarousel{
 	
 }
 
-.container{
+.articulos{
 
-	//margin-right: 100px;
-	//margin-left: 100px;
+	margin-top: 100px;
 	
 }
 
@@ -367,10 +366,14 @@ div#myCarousel{
 
 
 .content-section{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	position: absolute;
+	
 	text-align: center;
 	//padding: 40px;
+	left: 18px;
+	right: 15px;
+	
+	top: 371px;
 
 		.b1{
 			
@@ -432,6 +435,8 @@ div#myCarousel{
 		}
 
 }
+
+
 
 .contenido{
 			//background-color: #00A7D9;
