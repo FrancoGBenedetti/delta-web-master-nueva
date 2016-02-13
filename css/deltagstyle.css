@@ -80,9 +80,40 @@ body {
   margin-bottom: 0px;
 }
 
+.secondbar .navbar ul {
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+
+.secondbar .navbar ul li {
+  background-color: #07AF41;
+  transition: background-color 0.2s linear 1s;
+  transition: box-shadow 0.2s linear 0.3s;
+  font-weight: bold;
+}
+
+.secondbar .navbar ul li a {
+  color: white;
+}
+
+.secondbar .navbar ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.secondbar .navbar ul li:hover {
+  background-color: #029234;
+  height: 100%;
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
 .secondbar .navbar-default {
   border-color: white;
   background-color: #F9FDFD;
+  border: 0px;
 }
 
 .logo-bar {
@@ -107,12 +138,12 @@ body {
   text-align: right;
   padding: 0px;
   margin: 0px;
+  margin-left: 127px;
 }
 
 .logo-bar ul li {
   display: inline-block;
   text-decoration: none;
-  padding: 25px;
   margin-right: 0px;
   transition: background-color 0.6s linear 0.5s;
   transition: box-shadow 0.1s linear 0.3s;
@@ -120,8 +151,13 @@ body {
   vertical-align: center;
 }
 
+.logo-bar ul li span {
+  font-size: 14px;
+  color: black;
+}
+
 .logo-bar ul li a {
-  color: white;
+  color: black;
 }
 
 .logo-bar ul li a:hover {
