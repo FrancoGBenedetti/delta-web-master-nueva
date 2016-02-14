@@ -1,6 +1,5 @@
 $('.carousel').carousel('pause');
 
-
 var imagenes = [];
 var nombres = ["Bolsas de congelamiento NL (CryoStore Freezing Bag)", "DMSO USP", "Sistemas de almacenaje"];
 var descripciones = ["Las bolsas de congelamiento Origen Cryostore es una forma segura y económica para crioreservar los componentes sanguíneos.<br>La bolsa Cryostore ha recibido la autorización de comercialización de la FDA,  y se encuentra indicada para la preservación criogénica de sangre y sus componentes, en nitrógeno líquido. Está hecha de película de EVA, que combina la resistencia y flexibilidad necesarias para entregar estabilidad en nitrógeno liquido,con una excelente flexibilidad, y relación impacto/resistencia a la perforación, así como una buena claridad óptica. EVA tiene una baja transmisión de vapor de agua y buenas propiedades de barrera al gas, que ayuda a preservar la integridad de los componentes de la sangre.",
@@ -74,3 +73,4 @@ function validateMsgForm(){
     alert(response.error);
     return response;
 }
+
