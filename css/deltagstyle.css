@@ -7,67 +7,6 @@ body {
   background: -webkit-linear-gradient(#fff, #E8EBEB);
 }
 
-/*.secondbar{
-	height: 40px;
-	background-color: #F9FDFD;
-	//border-bottom: 5px solid #282828;
-	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	z-index:500;
-	ul.inicial{
-		
-		
-		//color: #282828;
-		text-align: right;
-		margin: 0px;
-		padding: 0px;
-		.btn-group{
-			.btn{
-				padding: 0px 12px;
-				background-color: #F9FDFD;
-				border-color: #F9FDFD;
-				border-radius: 0px;
-
-			}
-			 .dropdown-toggle.btn-default:hover{
-				background-color: rgba(139,178,175,0.3);
-
-			}
-			.dropdown-menu{
-				border-radius: 0px;
-				background-color: #F9FDFD;
-				left: -150px;
-			}
-		}
-		
-
-		li{
-			display: inline-block;
-			padding: 10px;
-			margin-right: 10px;
-
-			
-			a{
-			text-decoration: none;
-			color: #282828;
-			font-size: 14px;
-			
-
-			}
-		}
-
-		li:hover{
-			background-color: rgba(139,178,175,0.3);
-			height: 100%;
-			-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-			-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-		}
-	}
-
-
-}*/
 .secondbar {
   background-color: #FBFBFB;
   border-bottom: 1px solid #c7c7c7;
@@ -189,7 +128,13 @@ div#myCarousel div.carousel-inner div.item div.carousel-caption {
 
 div#myCarousel div.carousel-inner div.item div.carousel-caption span {
   font-size: 60px;
+  color: #A3C300;
+  transition: font-size 0.5s linear 0.2s;
+}
+
+div#myCarousel div.carousel-inner div.item div.carousel-caption span:hover {
   color: #008EC3;
+  font-size: 70px;
 }
 
 div#myCarousel div.carousel-inner div.item img {
