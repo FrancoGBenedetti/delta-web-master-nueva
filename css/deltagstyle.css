@@ -69,10 +69,8 @@ body {
 
 }*/
 .secondbar {
-  background-color: #F9FDFD;
-  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  background-color: #FBFBFB;
+  border-bottom: 1px solid #c7c7c7;
   z-index: 500;
 }
 
@@ -82,7 +80,7 @@ body {
 
 .secondbar .navbar img {
   width: 130px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .secondbar .navbar ul {
@@ -92,16 +90,12 @@ body {
 }
 
 .secondbar .navbar ul li {
-  transition: background-color 0.2s linear 1s;
-  transition: box-shadow 0.2s linear 0.3s;
+  transition: background-color 0.5s linear 0.5s;
+  transition: box-shadow 0.2s linear 0.5s;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-weight: bold;
   text-align: center;
-}
-
-.secondbar .navbar ul li span {
-  font-size: 30px;
-  color: #008EC3;
-  padding-top: 10px;
 }
 
 .secondbar .navbar ul li a {
@@ -109,7 +103,9 @@ body {
 }
 
 .secondbar .navbar ul li:hover {
-  background-color: #008EC3;
+  background: -webkit-linear-gradient(#fff, #F9FDFD);
+  background: -moz-linear-gradient(#fff, #F9FDFD);
+  background: linear-gradient(#fff, #F9FDFD);
   height: 100%;
   -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
@@ -118,16 +114,12 @@ body {
 
 .secondbar .navbar ul li:hover a {
   text-decoration: none;
-  color: white;
-}
-
-.secondbar .navbar ul li:hover span {
-  color: white;
+  color: #008EC3;
 }
 
 .secondbar .navbar-default {
   border-color: white;
-  background-color: #F9FDFD;
+  background-color: #FBFBFB;
   border: 0px;
 }
 
@@ -172,13 +164,17 @@ div#myCarousel .carousel-control.left {
 div#myCarousel div.carousel-inner {
   margin-left: 0px;
   border: 0px;
-  -webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
 div#myCarousel div.carousel-inner div.item {
   text-align: center;
+}
+
+div#myCarousel div.carousel-inner div.item .canister {
+  right: 40%;
+  left: 6%;
+  margin-right: 250px;
+  bottom: 100px;
 }
 
 div#myCarousel div.carousel-inner div.item div.carousel-caption {
@@ -193,7 +189,7 @@ div#myCarousel div.carousel-inner div.item div.carousel-caption {
 
 div#myCarousel div.carousel-inner div.item div.carousel-caption span {
   font-size: 60px;
-  color: #CE1515;
+  color: #008EC3;
 }
 
 div#myCarousel div.carousel-inner div.item img {
@@ -281,6 +277,11 @@ div#myCarousel div.carousel-inner div.item img {
   -webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.origen .origen-description p.delta-description span {
+  font-weight: bold;
+  color: #008EC3;
 }
 
 .origen .origen-description figure {

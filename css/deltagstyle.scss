@@ -75,17 +75,15 @@ body{
 }*/
 
 .secondbar{
-	background-color: #F9FDFD;
-	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+	background-color: #FBFBFB;
+	border-bottom: 1px solid $linecolor;
 	z-index: 500;
 
 	.navbar{ 
 		margin-bottom: 0px;
 		img{
 			width: 130px;
-			margin-top: 10px;
+			margin-top: 15px;
 		}
 		ul{
 		text-align: right;
@@ -94,20 +92,15 @@ body{
 		
 			li{
 				//background-color: #008EC3;
-				transition: background-color 0.2s linear 1s;
-				transition: box-shadow 0.2s linear 0.3s;
-
+				transition: background-color 0.5s linear 0.5s;
+				transition: box-shadow 0.2s linear 0.5s;
+				padding-top: 15px;
+				padding-bottom: 15px;
 				
 				font-weight: bold;
 				text-align: center;
 
-				span{
-					font-size: 30px;
-					color: $bluedelta;
-					padding-top: 10px;
-					
-
-				}
+				
 
 				
 
@@ -120,28 +113,26 @@ body{
 			}
 
 			li:hover{
-				background-color: $bluedelta;
+				background: -webkit-linear-gradient(#fff, #F9FDFD);
+				background: -moz-linear-gradient(#fff, #F9FDFD);
+				background: linear-gradient(#fff, #F9FDFD);
 				height: 100%;
 				-webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 				-moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 				box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 				a{
 					text-decoration: none;
-					color: white;
+					color: $bluedelta;
 
 				}
-				span{
-
-					color: white;
-
-				}
+				
 			}
 		}
 
 	}
 	.navbar-default{
 		border-color: white;
-		background-color: #F9FDFD;
+		background-color: #FBFBFB;
 		border: 0px;
 
 	}
@@ -205,14 +196,19 @@ div#myCarousel{
 		//border-bottom: 5px solid #282828;
 		//border-bottom: 2px solid $bluedelta;
 		//border-radius: 10px;
-		-webkit-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-		-moz-box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
-		box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+		
 		
 		div.item{
 			text-align: center;
 			
-			
+			.canister{
+
+				right: 40%;
+				left: 6%;
+				margin-right: 250px;
+				bottom: 100px;
+
+			}
 
 
 			div.carousel-caption{
@@ -226,7 +222,7 @@ div#myCarousel{
 				bottom: 100px;
 				span{
 					font-size: 60px;
-					color: #CE1515;
+					color: $bluedelta;
 				}
 
 				p{
@@ -242,6 +238,7 @@ div#myCarousel{
 				//border-radius: 10px;
 			}
 		}
+		
 	}
 }
 
@@ -362,6 +359,16 @@ div#myCarousel{
 		-webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
 		-moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
 		box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+		p.delta-description{
+			
+				span{
+
+				font-weight: bold;
+				color: $bluedelta;
+
+				}
+			
+		}
 		figure{
 			//background-color: $bluedelta;
 			text-align: center;
