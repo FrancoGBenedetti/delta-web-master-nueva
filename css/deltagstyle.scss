@@ -539,6 +539,12 @@ div#myCarousel{
 	p{
 		position: relative;
 		text-align: justify;
+
+		button{
+			display: block;
+			width: 120px;
+			margin: 0 auto;
+		}
 	}
 }
 
@@ -556,4 +562,36 @@ div#myCarousel{
 
 .modal-body{
 	text-align: center;
+}
+
+.news {
+	overflow-y: scroll;
+	height: 296px;
+	padding-left: 24px;
+
+	.article{
+		padding: 16px 0;
+		border-bottom: 1px solid $linecolor;
+
+		img{
+			float: left;
+			height: 80px;
+			margin-right: 16px;
+		}
+
+		.title{
+			font-weight: bold;
+			font-size: 1.5em;
+		}
+
+		.author, .date{
+			font-size: 1em;
+		}
+
+		.date{
+			float: right;
+		}
+
+		
+	}
 }

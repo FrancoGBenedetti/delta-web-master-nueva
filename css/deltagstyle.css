@@ -423,6 +423,12 @@ div#myCarousel div.carousel-inner div.item img {
   text-align: justify;
 }
 
+.productos p button {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+}
+
 .valign {
   display: inline-block;
   vertical-align: middle;
@@ -437,4 +443,34 @@ div#myCarousel div.carousel-inner div.item img {
 
 .modal-body {
   text-align: center;
+}
+
+.news {
+  overflow-y: scroll;
+  height: 296px;
+  padding-left: 24px;
+}
+
+.news .article {
+  padding: 16px 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.news .article img {
+  float: left;
+  height: 80px;
+  margin-right: 16px;
+}
+
+.news .article .title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.news .article .author, .news .article .date {
+  font-size: 1em;
+}
+
+.news .article .date {
+  float: right;
 }
