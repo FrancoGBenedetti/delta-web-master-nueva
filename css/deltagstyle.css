@@ -9,6 +9,7 @@ body {
 
 div.logo {
   background: -webkit-linear-gradient(#fff, #f7f7f7);
+  border-bottom: 1px solid #c7c7c7;
 }
 
 div.logo figure {
@@ -440,7 +441,7 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .contacto {
-  margin-top: 150px;
+  margin-top: 90px;
 }
 
 .footer {
