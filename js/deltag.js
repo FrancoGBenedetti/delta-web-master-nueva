@@ -1,9 +1,10 @@
-$('.carousel').carousel('pause');
 
 $(function(){
-	$.post("./news.php", function(response){
+	$('.carousel').carousel('pause');
+
+	/*$.post("./news.php", function(response){
 		$(".news").html(response);
-	});
+	});*/
 });
 
 $("#contact-msg-btn").bind("click", function(){
@@ -62,18 +63,13 @@ function validateMsgForm(){
 
 
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 	if ($(window).width() <= 800){	
-		$("div.item > div.carousel-caption > p").hide();
+		$(".carousel-caption h2").hide();
 	}else{
-		$("div.item > div.carousel-caption > p").show();
+		$(".carousel-caption h2").show();
 
 	}
-	
-
-	console.log($(window).width());
-
-
-});
+});*/
 
 
