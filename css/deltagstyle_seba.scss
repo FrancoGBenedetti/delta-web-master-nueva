@@ -73,7 +73,7 @@ body{
 
 }*/
 
-/*.secondbar{
+.secondbar{
 	background-color: #F9FDFD;
 	-webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
@@ -108,7 +108,7 @@ body{
 			}
 
 			li:hover{
-				//background-color: #029234;
+				background-color: #029234;
 				height: 100%;
 				-webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 				-moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
@@ -119,11 +119,11 @@ body{
 	}
 	.navbar-default{
 		border-color: white;
-		//background-color: #F9FDFD;
+		background-color: #F9FDFD;
 		border: 0px;
 
 	}
-}*/
+}
 
 
 .logo-bar{
@@ -276,7 +276,7 @@ body{
 				bottom: 100px;
 				span{
 					font-size: 60px;
-					//color: #CE1515;
+					color: #CE1515;
 				}
 
 				p{
@@ -618,6 +618,12 @@ body{
 	p{
 		position: relative;
 		text-align: justify;
+
+		button{
+			display: block;
+			width: 120px;
+			margin: 0 auto;
+		}
 	}
 }
 
@@ -637,17 +643,45 @@ body{
 	text-align: center;
 }
 
-/* SEBA */
 .news {
-	overflow: hidden;
-	height: 560px;
+	overflow-y: scroll;
+	height: 296px;
 	padding-left: 24px;
 
-	iframe{
-		margin: 0 auto;
-		height: 600px;
-		width: 520px;
-		margin-top: -200px;
-		border: 0px none;
+	.article{
+		padding: 16px 0;
+		border-bottom: 1px solid $linecolor;
+
+		img{
+			float: left;
+			height: 80px;
+			width: 140px;
+			margin-right: 16px;
+		}
+
+		.article_info{
+			margin-left: 156px;
+		}
+
+		.title{
+			font-weight: bold;
+			font-size: 1.5em;
+		}
+
+		.author, .date{
+			font-size: 1em;
+			margin-right: 8px;
+		}
+
+		.date{
+			padding-left: 8px;
+			border-left: 2px solid $linecolor;
+		}
+
+		
 	}
+}
+
+.clearfix{
+	clear:both;
 }
