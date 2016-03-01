@@ -501,11 +501,6 @@ div#myCarousel{
 
 		}
 
-
-
-.productos{
-}
-
 .productos-select{
 	padding: 16px;
 }
@@ -586,6 +581,7 @@ div#myCarousel{
 	background: -moz-linear-gradient(#EEF2F2, #E3E4E4);
 	background: linear-gradient(#EEF2F2, #E3E4E4);
 }
+
 .producto-descripcion-tecnica{
 	h4{
 		font-weight: bold;
@@ -635,8 +631,6 @@ div#myCarousel{
 	float: none;
 }
 
-
-
 .table{
 	margin-top: 20px;
 }
@@ -662,9 +656,6 @@ tbody{
 	}
 }
 
-
-
-
 .prodimg{
 	text-align: left !important;
 	img{
@@ -686,7 +677,7 @@ tbody{
 
 
 
-///////////////CONTACTO
+///////////////////////
 
 
 
@@ -734,7 +725,7 @@ tbody{
 
 
 
-
+/*
 @media (max-width: 480px){
 
 	div.carousel-inner{
@@ -776,4 +767,4 @@ tbody{
 			}
 		}
 	}
-}
+}*/

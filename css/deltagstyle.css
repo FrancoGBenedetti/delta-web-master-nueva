@@ -572,32 +572,46 @@ tbody tr td {
   float: right;
 }
 
-@media (max-width: 480px) {
-  div.carousel-inner div.item div.carousel-caption {
-    right: 45%;
-    left: 0%;
-    margin-right: 30px;
-    color: #282828;
-    font-size: 14px;
-    text-shadow: 0 0px 0px transparent;
-    bottom: 10px;
-  }
-  div.carousel-inner div.item div.carousel-caption span {
-    font-size: 23px;
-    color: #A3C300;
-    transition: font-size 0.5s linear 0.2s;
-  }
-  div.carousel-inner div.item div.carousel-caption h2 {
-    font-size: 14px;
-    color: #008EC3;
-  }
-  div.carousel-inner div.item div.carousel-caption h3 {
-    color: #282828;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  div.carousel-inner div.item div.carousel-caption span:hover {
-    color: #008EC3;
-    font-size: 30px;
-  }
-}
+/*
+@media (max-width: 480px){
+
+	div.carousel-inner{
+		div.item{
+			div.carousel-caption{
+				right: 45%;
+				left: 0%;
+				margin-right: 30px;
+				color: #282828;
+				//width: 25%;
+				font-size: 14px;
+				text-shadow: 0 0px 0px rgba(0,0,0,.0);
+
+				bottom: 10px;
+				span{
+					font-size: 23px;
+					color: #A3C300;
+					transition: font-size 0.5s linear 0.2s; 
+				}
+				h2{
+					font-size: 14px;
+					color: $bluedelta;
+				}
+				h3{
+					color: #282828;
+					font-weight: bold;
+					font-size: 14px;
+				}
+
+				p{
+
+				}
+				span:hover{
+					color: $bluedelta;
+					font-size: 30px;
+
+
+				}
+			}
+		}
+	}
+}*/
