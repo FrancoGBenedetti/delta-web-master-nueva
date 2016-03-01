@@ -13,11 +13,26 @@ body{
 
 }
 
+div.logo{
+	background: -webkit-linear-gradient(#fff, #f7f7f7);
+	figure{
+		padding: 20px;
+		text-align: center;
+		img{
+			width: 180px
+
+		}
+	}
+}
 
 .secondbar{
 	background-color: #FBFBFB;
 	border-bottom: 1px solid $linecolor;
 	z-index: 500;
+	-webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+			
 
 	.navbar{ 
 		margin-bottom: 0px;
@@ -150,32 +165,51 @@ div#myCarousel{
 
 			}
 
+			
 
-			div.carousel-caption{
-				right: 40%;
-				left: 6%;
-				margin-right: 250px;
-				color: #282828;
-				//width: 25%;
-				font-size: 14px;
-				text-shadow: 0 0px 0px rgba(0,0,0,.0);
-				bottom: 100px;
-				span{
-					font-size: 60px;
-					color: #A3C300;
-					transition: font-size 0.5s linear 0.2s; 
+				div.carousel-caption{
+					right: 40%;
+					left: 6%;
+					margin-right: 250px;
+					bottom: 100px;
+					color: #282828;
+					//width: 25%;
+					font-size: 14px;
+					text-shadow: 0 0px 0px rgba(0,0,0,.0);
+					
+					span{
+						font-size: 60px;
+						color: #A3C300;
+						transition: font-size 0.5s linear 0.2s; 
+					}
+
+					h2{
+						font-weight: bold;
+						color: $bluedelta;
+						font-size: 30px;
+						text-align: center;
+					}
+
+					p{
+						font-size: 20px;
+
+					}
+					span:hover{
+						color: $bluedelta;
+						font-size: 70px;
+						
+
+
+					}
+					
 				}
 
-				p{
 
-				}
-				span:hover{
-					color: $bluedelta;
-					font-size: 70px;
+			
+  
 
 
-				}
-			}
+			
 
 			img{
 				display: inline-block;
@@ -235,7 +269,7 @@ div#myCarousel{
 		
 		text-align: center;
 		//padding:20px;
-		padding-top: 10px;
+		padding: 10px;
 		background-color: #f4f4f4;
 		background: -webkit-linear-gradient(#F9FDFD, #EEF1F1);
 		background: -moz-linear-gradient(#F9FDFD, #EEF1F1);
@@ -252,7 +286,7 @@ div#myCarousel{
 			margin-right: 25px;
 			
 			img{
-				width: 85px;
+				width: 100px;
 				margin-right: 25px;
 				//transition: width 0.5s linear 0.1s;
 			}
@@ -292,7 +326,7 @@ div#myCarousel{
 
 .articulos{
 
-	margin-top: 100px;
+	margin-top: 30px;
 	
 }
 
@@ -341,40 +375,7 @@ div#myCarousel{
 		a{
 			text-decoration: none;
 		}
-		.botton{
-			background-color: #282828;
-			width: 520px;
-			height: 117px;
-			margin-top: 5px;
-			text-align: center;
-			padding-top: 1px;
-			-webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
-			-moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
-			box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
-			h4{
-				color: white;
-				text-align: center;
-				//margin-top: 5px;
-
-			}
-			p{
-				color: white;
-				//font-weight: bold;
-				
-				text-align: center;
-			}
-			span{
-				color: white;
-				font-size: 20px;
-			}
-			
-			
-		}
-		.botton:hover{
-			text-decoration: none;
-			background-color: $bluedelta;
-
-		}
+	
 		iframe{
 			//border: 3px solid $bluedelta;
 			-webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
@@ -386,42 +387,116 @@ div#myCarousel{
 }
 
 
+.botton{
+			background-color: #F8FCFC;
+			width: 520px;
+			height: 117px;
+			margin-top: 5px;
+			text-align: center;
+			padding-top: 1px;
+			border-top: 1px solid rgba(255,255,255,0.8);
+			-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			h4{
+				color: #363D45;
+				text-align: center;
+				//margin-top: 5px;
+				font-weight: bold;
 
+			}
+			p{
+				color: #363D45;
+				//font-weight: bold;
+				
+				text-align: center;
+			}
+			span{
+				color: #9CB6D4;
+				font-size: 20px;
+			}
+			
+			
+		}
+		.botton:hover{
+			text-decoration: none;
+			background-color: $bluedelta;
+			h4{
+				color: white;
+			}
+			p{
+				color: white;
+			}
+			span{
+				color: white;
+			}
+
+		}
 
 
 
 .contenido{
 			//background-color: #00A7D9;
-			border-right: 1px dashed $linecolor;
 			
+			.carousel-inner{
+				width: 400px;
+				//height: 250px;
+				-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+				
+				.item{
+					width: 400px;
+					padding: 20px;
+					img{
+						width: 400px;
+					}
+				}
+				.active{
+					img{
+						width: 400px;
+					}
+				}
+			}
 			//margin-top: 40px;
 			//height: 200px;
 			//margin-right: 45px;
 			//padding: 0px;
 			//margin-left: 10px;
+
 			.contenido2{
-				width: 50%;
+				display: block;
 				margin-right: 0px;
-				margin-left: 25%
+				//margin-left: 20px;
+
+				
+				//padding: 30px;
+				
+				//text-align: center;
+				h3{
+					//text-align: center;
+					font-weight: bold;
+					color: $bluedelta;
+					padding: 5px;
+					//border: 2px solid $linecolor;
+					margin-bottom: 20px;
+
+				}
+				figure{
+					display: inline-block;
+					width: 49%;
+					margin-bottom: 50px;
+					text-align: center;
+					img{
+						width: 100px;
+						transition: width 0.5s linear 0.2s;
+					}
+					img:hover{
+						width:120px;
+					}
+				}
 			}
 			
-
-			h2{
-				
-				font-size: 19px;
-				color: #00A7D9;
-			}
-			p{
-				text-align: left;
-			}
-			img{
-				width: 120px;
-				//margin-top: 70px;
-				border-radius: 10px;
-				transition: width 0.5s linear 0.1s;
-				margin-top: 10px;
-
-			}
 			
 
 		}
@@ -468,7 +543,7 @@ div#myCarousel{
 	cursor: pointer;
 	color: #3C486E;
 	font-weight: bold;
-	border-radius: 10px;
+	//border-radius: 10px;
 	border-top: 1px solid rgba(255,255,255,0.8);
 }
 
@@ -503,13 +578,19 @@ div#myCarousel{
 }
 
 .contacto{
-	margin-top: 48px;
+	margin-top: 150px;
 }
 
 .footer{
 	background: -webkit-linear-gradient(#EEF2F2, #E3E4E4);
 	background: -moz-linear-gradient(#EEF2F2, #E3E4E4);
 	background: linear-gradient(#EEF2F2, #E3E4E4);
+}
+.producto-descripcion-tecnica{
+	h4{
+		font-weight: bold;
+		color: $bluedelta;
+	}
 }
 
 .productos{
@@ -520,7 +601,7 @@ div#myCarousel{
 	img{
 		height: 200px;
 		width: 200px;
-		border-radius: 10%;
+		//border-radius: 10%;
 		border-top: 1px solid rgba(255,255,255,0.8);
 		-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
 		-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
@@ -530,10 +611,10 @@ div#myCarousel{
 	h2{
 		font-weight: bold;
 		color: white;
-		background-color: $bluedelta;
-		padding: 5px 0px 5px 0px;
+		background-color:  #4E8EC3;;
+		padding: 10px 0px 10px 0px;
 		text-align: center;
-		border-radius: 3px;
+		//border-radius: 3px;
 	}
 
 	p{
@@ -550,9 +631,64 @@ div#myCarousel{
 
 .valign{
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	float: none;
 }
+
+
+
+.table{
+	margin-top: 20px;
+}
+
+
+.thead-inverse{
+	background-color: $bluedelta;
+	color: white;
+	th{
+		text-align: center !important;
+	}
+
+}
+
+tbody{
+	tr{
+		td{
+			vertical-align: middle !important;
+			//font-weight: bold;
+			font-size: 20px;
+			text-align: left !important;
+		}
+	}
+}
+
+
+
+
+.prodimg{
+	text-align: left !important;
+	img{
+		width: 276px;
+		margin: 5px;
+		border-top: 1px solid rgba(255,255,255,0.8);
+		-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+		
+
+	}
+}
+
+
+///////CONTACTO/////////
+
+
+
+
+
+///////////////CONTACTO
+
+
 
 @media(max-width:400px){
 	.productos2 img{
@@ -581,7 +717,7 @@ div#myCarousel{
 
 		.title{
 			font-weight: bold;
-			font-size: 1.5em;
+			font-size: 2.5em;
 		}
 
 		.author, .date{
@@ -593,5 +729,51 @@ div#myCarousel{
 		}
 
 		
+	}
+}
+
+
+
+
+@media (max-width: 480px){
+
+	div.carousel-inner{
+		div.item{
+			div.carousel-caption{
+				right: 45%;
+				left: 0%;
+				margin-right: 30px;
+				color: #282828;
+				//width: 25%;
+				font-size: 14px;
+				text-shadow: 0 0px 0px rgba(0,0,0,.0);
+
+				bottom: 10px;
+				span{
+					font-size: 23px;
+					color: #A3C300;
+					transition: font-size 0.5s linear 0.2s; 
+				}
+				h2{
+					font-size: 14px;
+					color: $bluedelta;
+				}
+				h3{
+					color: #282828;
+					font-weight: bold;
+					font-size: 14px;
+				}
+
+				p{
+
+				}
+				span:hover{
+					color: $bluedelta;
+					font-size: 30px;
+
+
+				}
+			}
+		}
 	}
 }

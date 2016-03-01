@@ -60,3 +60,20 @@ function validateMsgForm(){
     return response;
 }
 
+
+
+$(document).ready(function(){
+	if ($(window).width() <= 800){	
+		$("div.item > div.carousel-caption > p").hide();
+	}else{
+		$("div.item > div.carousel-caption > p").show();
+
+	}
+	
+
+	console.log($(window).width());
+
+
+});
+
+
