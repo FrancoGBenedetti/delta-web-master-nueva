@@ -267,7 +267,7 @@ div#myCarousel{
 	
 	.clients{
 		
-		text-align: center;
+		//text-align: center;
 		//padding:20px;
 		padding: 10px;
 		background-color: #f4f4f4;
@@ -369,7 +369,7 @@ div#myCarousel{
 	}
 	.video{
 		img{
-			width: 200px;
+			
 			
 		}
 		a{
@@ -381,6 +381,9 @@ div#myCarousel{
 			-webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
 			-moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
 			box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+			width: 100%;
+
+
 		}
 
 	}
@@ -389,11 +392,11 @@ div#myCarousel{
 
 .botton{
 			background-color: #F8FCFC;
-			width: 520px;
-			height: 117px;
+			//width: 100%;
+			//height: 117px;
 			margin-top: 5px;
 			text-align: center;
-			padding-top: 1px;
+			padding: 10px;
 			border-top: 1px solid rgba(255,255,255,0.8);
 			-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 			-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
@@ -774,6 +777,12 @@ tbody{
 
 				}
 			}
+		}
+	}
+
+	.video{
+		.iframe{
+			margin-top: 10px;
 		}
 	}
 }

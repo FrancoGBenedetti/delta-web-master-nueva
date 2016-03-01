@@ -194,7 +194,6 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .container-box-2 .clients {
-  text-align: center;
   padding: 10px;
   background-color: #f4f4f4;
   background: -webkit-linear-gradient(#F9FDFD, #EEF1F1);
@@ -270,10 +269,6 @@ div#myCarousel div.carousel-inner div.item img {
   text-align: justify;
 }
 
-.origen .video img {
-  width: 200px;
-}
-
 .origen .video a {
   text-decoration: none;
 }
@@ -282,15 +277,14 @@ div#myCarousel div.carousel-inner div.item img {
   -webkit-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+  width: 100%;
 }
 
 .botton {
   background-color: #F8FCFC;
-  width: 520px;
-  height: 117px;
   margin-top: 5px;
   text-align: center;
-  padding-top: 1px;
+  padding: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
@@ -599,5 +593,8 @@ tbody tr td {
   div.carousel-inner div.item div.carousel-caption span:hover {
     color: #008EC3;
     font-size: 30px;
+  }
+  .video .iframe {
+    margin-top: 10px;
   }
 }
