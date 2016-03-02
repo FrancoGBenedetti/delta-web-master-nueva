@@ -1,6 +1,6 @@
 .news {
   overflow-y: scroll;
-  height: 90%;
+  height: 400px;
   padding-left: 24px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .news .article .article_info {
-  margin-left: 156px;
+  float: right;
 }
 
 .news .article .title {

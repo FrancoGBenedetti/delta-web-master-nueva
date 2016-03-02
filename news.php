@@ -9,7 +9,7 @@ class article{
 	public $date;
 
 	function fillTemplate(){
-		$html = '<div class="article"><img src="'.$this->image.'" alt="article_image"><div class="title">'.$this->title.'</div><div class="article_info"><span class="author">'.$this->author.'</span><span class="date">'.$this->date.'</span></div></div>';
+		$html = '<div class="article"><img src="'.$this->image.'" alt="article_image"><div class="title">'.$this->title.'</div><div class="article_info"><span class="author">'.$this->author.'</span><span class="date">'.$this->date.'</span></div><div class="clearfix"></div></div>';
 		return $html;
 	}
 }
