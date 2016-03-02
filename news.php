@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 require('./class/simple_html_dom.php');
 
 class article{

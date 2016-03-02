@@ -3,7 +3,7 @@ $linecolor: #c7c7c7;
 
 .news {
 	overflow-y: scroll;
-	height: 296px;
+	height: 100%;
 	padding-left: 24px;
 
 	.article{
@@ -40,4 +40,11 @@ $linecolor: #c7c7c7;
 
 .clearfix{
 	clear:both;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
