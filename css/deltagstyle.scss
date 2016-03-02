@@ -149,69 +149,60 @@ div#myCarousel{
 	div.carousel-inner{
 		margin-left: 0px;
 		border: 0px;
-		//border-bottom: 5px solid #282828;
-		//border-bottom: 2px solid $bluedelta;
-		//border-radius: 10px;
-		
 		
 		div.item{
-			text-align: center;
+			//text-align: center;
 			
 			.canister{
-
 				right: 40%;
 				left: 6%;
 				margin-right: 250px;
 				bottom: 100px;
-
 			}
 
+			/*.carousel-caption{
+				margin-left: 24px;
+				width: 40%;
+				position: absolute;
+				top: 20%;
+				left: 0;
+			}*/
 			
-
-				div.carousel-caption{
-					right: 40%;
-					left: 6%;
-					margin-right: 250px;
-					bottom: 100px;
-					color: #282828;
-					//width: 25%;
-					font-size: 14px;
-					text-shadow: 0 0px 0px rgba(0,0,0,.0);
-					
-					span{
-						font-size: 60px;
-						color: #A3C300;
-						transition: font-size 0.5s linear 0.2s; 
-					}
-
-					h2{
-						font-weight: bold;
-						color: $bluedelta;
-						font-size: 30px;
-						text-align: center;
-					}
-
-					p{
-						font-size: 20px;
-
-					}
-					span:hover{
-						color: $bluedelta;
-						font-size: 70px;
-						
-
-
-					}
-					
+			div.carousel-caption{
+				margin-left: 24px;
+				width: 40%;
+				position: absolute;
+				top: 10%;
+				left: 0;
+				color: #282828;
+				//width: 25%;
+				font-size: 14px;
+				text-shadow: 0 0px 0px rgba(0,0,0,.0);
+				
+				span{
+					font-size: 60px;
+					color: #A3C300;
+					transition: font-size 0.5s linear 0.2s; 
 				}
 
+				h2{
+					font-weight: bold;
+					color: $bluedelta;
+					font-size: 30px;
+					text-align: center;
+				}
 
+				p{
+					font-size: 20px;
+
+				}
+
+				span:hover{
+					color: $bluedelta;
+					font-size: 70px;
+				}
+			}
 			
-  
-
-
-			
-
 			img{
 				display: inline-block;
 				width: 100%;
