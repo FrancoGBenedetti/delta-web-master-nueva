@@ -497,10 +497,6 @@ div#myCarousel{
 		}
 
 
-
-.productos{
-}
-
 .productos-select{
 	padding: 16px;
 }
@@ -573,7 +569,7 @@ div#myCarousel{
 }
 
 .contacto{
-	margin-top: 90px;
+	margin: 40px 0;
 }
 
 .footer{
@@ -592,8 +588,10 @@ div#myCarousel{
 	padding: 40px;
 	background-color: #f0f0f0;
 	border-top: 1px solid $linecolor;
+	display: flex;
 	
 	img{
+		margin-top: 18px;
 		height: 200px;
 		width: 200px;
 		//border-radius: 10%;
@@ -625,9 +623,9 @@ div#myCarousel{
 }
 
 .valign{
+	height: 100%;
 	display: inline-block;
-	vertical-align: top;
-	float: none;
+	vertical-align: middle;
 }
 
 

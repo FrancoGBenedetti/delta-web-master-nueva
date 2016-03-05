@@ -448,7 +448,7 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .contacto {
-  margin-top: 90px;
+  margin: 40px 0;
 }
 
 .footer {
@@ -466,9 +466,11 @@ div#myCarousel div.carousel-inner div.item img {
   padding: 40px;
   background-color: #f0f0f0;
   border-top: 1px solid #c7c7c7;
+  display: flex;
 }
 
 .productos img {
+  margin-top: 18px;
   height: 200px;
   width: 200px;
   border-top: 1px solid rgba(255, 255, 255, 0.8);
@@ -497,9 +499,9 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .valign {
+  height: 100%;
   display: inline-block;
-  vertical-align: top;
-  float: none;
+  vertical-align: middle;
 }
 
 .table {
