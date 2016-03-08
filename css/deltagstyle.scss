@@ -8,6 +8,7 @@ $bluedelta: #008EC3;
 	-webkit-box-sizing: border-box;
 }
 
+
 body{
 	background: -webkit-linear-gradient(#fff, #E8EBEB);
 
@@ -30,9 +31,9 @@ div.logo{
 	background-color: #FBFBFB;
 	border-bottom: 1px solid $linecolor;
 	z-index: 500;
-	-webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 			
 
 	.navbar{ 
@@ -282,12 +283,12 @@ div#myCarousel{
 
 		figure{
 			display: inline-block;
-			border-right: 1px dashed $linecolor;
+			//border-right: 1px dashed $linecolor;
 			padding: 10px 0px;
 			margin-right: 25px;
 			
 			img{
-				width: 100px;
+				width: 80px;
 				margin-right: 25px;
 				//transition: width 0.5s linear 0.1s;
 			}
@@ -392,19 +393,22 @@ div#myCarousel{
 
 
 .botton{
-			background-color: #F8FCFC;
+			background-color: #E3E8E9;
 			//width: 100%;
 			//height: 117px;
 			margin-top: 5px;
 			text-align: center;
-			padding: 10px;
+			//padding: 10px;
 			border-top: 1px solid rgba(255,255,255,0.8);
-			-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-			-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-			box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+			
+			div{
+				display: inline-block;
+			}
 			h4{
-				color: #363D45;
+				color: $bluedelta;
 				text-align: center;
+				
+				font-size: 20px;
 				//margin-top: 5px;
 				font-weight: bold;
 
@@ -416,9 +420,13 @@ div#myCarousel{
 				text-align: center;
 			}
 			span{
-				color: #9CB6D4;
-				font-size: 20px;
+				color: $bluedelta;
+				font-size: 25px;
+				
+				vertical-align: middle;
+				padding: 10px;
 			}
+			
 			
 			
 		}
@@ -427,6 +435,7 @@ div#myCarousel{
 			background-color: $bluedelta;
 			h4{
 				color: white;
+				text-decoration: none;
 			}
 			p{
 				color: white;
@@ -477,6 +486,10 @@ div#myCarousel{
 				//padding: 30px;
 				
 				//text-align: center;
+				a:hover{
+					text-decoration: none;
+				}
+
 				h3{
 					//text-align: center;
 					font-weight: bold;
@@ -582,8 +595,63 @@ div#myCarousel{
 }
 
 .contacto{
-	margin-top: 90px;
+	margin-top: 100px;
 }
+.datos-contacto{
+	//background-color: #337AB7;
+	padding-top: 20px;
+	margin-top: 100px;
+	text-align: right;
+	border-top: 1px solid $linecolor;
+
+			p{
+				//margin: 15px;
+				color: $bluedelta;
+				font-weight: bold;
+				
+				
+				
+			}
+		
+	
+}
+
+.bckclientes{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.docclientes{
+	//padding: 15px;
+	figure{
+		text-align: center;
+
+		
+		img{
+			width: 60%;
+			
+			padding: 20px;
+		}
+	}
+}
+.docclientes:hover{
+	figure{
+		-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+		border-radius: 100px;
+
+		img{
+			
+		}
+
+	}
+
+	
+
+}
+
 
 .footer{
 	background: -webkit-linear-gradient(#EEF2F2, #E3E4E4);
@@ -619,6 +687,7 @@ div#myCarousel{
 		padding: 10px 0px 10px 0px;
 		text-align: center;
 		//border-radius: 3px;
+		font-size: 20px;
 	}
 
 	p{
@@ -786,4 +855,23 @@ tbody{
 			margin-top: 10px;
 		}
 	}
+
+
+	.docclientes{
+		
+		figure{
+			
+
+			
+			img{
+				width: 80%;
+				
+				padding: 20px;
+			}
+		}
+	}
+
+
+
+
 }

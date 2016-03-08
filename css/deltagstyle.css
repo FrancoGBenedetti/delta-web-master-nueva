@@ -25,9 +25,9 @@ div.logo figure img {
   background-color: #FBFBFB;
   border-bottom: 1px solid #c7c7c7;
   z-index: 500;
-  -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .secondbar .navbar {
@@ -205,13 +205,12 @@ div#myCarousel div.carousel-inner div.item img {
 
 .container-box-2 .clients figure {
   display: inline-block;
-  border-right: 1px dashed #c7c7c7;
   padding: 10px 0px;
   margin-right: 25px;
 }
 
 .container-box-2 .clients figure img {
-  width: 100px;
+  width: 80px;
   margin-right: 25px;
 }
 
@@ -282,19 +281,20 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .botton {
-  background-color: #F8FCFC;
+  background-color: #E3E8E9;
   margin-top: 5px;
   text-align: center;
-  padding: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.8);
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.botton div {
+  display: inline-block;
 }
 
 .botton h4 {
-  color: #363D45;
+  color: #008EC3;
   text-align: center;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -304,8 +304,10 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .botton span {
-  color: #9CB6D4;
-  font-size: 20px;
+  color: #008EC3;
+  font-size: 25px;
+  vertical-align: middle;
+  padding: 10px;
 }
 
 .botton:hover {
@@ -315,6 +317,7 @@ div#myCarousel div.carousel-inner div.item img {
 
 .botton:hover h4 {
   color: white;
+  text-decoration: none;
 }
 
 .botton:hover p {
@@ -348,6 +351,10 @@ div#myCarousel div.carousel-inner div.item img {
 .contenido .contenido2 {
   display: block;
   margin-right: 0px;
+}
+
+.contenido .contenido2 a:hover {
+  text-decoration: none;
 }
 
 .contenido .contenido2 h3 {
@@ -441,7 +448,40 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .contacto {
-  margin-top: 90px;
+  margin-top: 100px;
+}
+
+.datos-contacto {
+  padding-top: 20px;
+  margin-top: 100px;
+  text-align: right;
+  border-top: 1px solid #c7c7c7;
+}
+
+.datos-contacto p {
+  color: #008EC3;
+  font-weight: bold;
+}
+
+.bckclientes {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.docclientes figure {
+  text-align: center;
+}
+
+.docclientes figure img {
+  width: 60%;
+  padding: 20px;
+}
+
+.docclientes:hover figure {
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
 }
 
 .footer {
@@ -476,6 +516,7 @@ div#myCarousel div.carousel-inner div.item img {
   background-color: #4E8EC3;
   padding: 10px 0px 10px 0px;
   text-align: center;
+  font-size: 20px;
 }
 
 .productos p {
@@ -567,7 +608,6 @@ tbody tr td {
   float: right;
 }
 
-<<<<<<< HEAD
 @media (max-width: 480px) {
   div.carousel-inner div.item div.carousel-caption {
     right: 45%;
@@ -599,49 +639,8 @@ tbody tr td {
   .video .iframe {
     margin-top: 10px;
   }
+  .docclientes figure img {
+    width: 80%;
+    padding: 20px;
+  }
 }
-=======
-/*
-@media (max-width: 480px){
-
-	div.carousel-inner{
-		div.item{
-			div.carousel-caption{
-				right: 45%;
-				left: 0%;
-				margin-right: 30px;
-				color: #282828;
-				//width: 25%;
-				font-size: 14px;
-				text-shadow: 0 0px 0px rgba(0,0,0,.0);
-
-				bottom: 10px;
-				span{
-					font-size: 23px;
-					color: #A3C300;
-					transition: font-size 0.5s linear 0.2s; 
-				}
-				h2{
-					font-size: 14px;
-					color: $bluedelta;
-				}
-				h3{
-					color: #282828;
-					font-weight: bold;
-					font-size: 14px;
-				}
-
-				p{
-
-				}
-				span:hover{
-					color: $bluedelta;
-					font-size: 30px;
-
-
-				}
-			}
-		}
-	}
-}*/
->>>>>>> origin/Franco-
