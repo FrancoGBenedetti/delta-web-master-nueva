@@ -288,10 +288,13 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .botton {
-  background-color: #E3E8E9;
+  background-color: #F7FBFB;
   margin-top: 5px;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .botton div {
@@ -299,7 +302,7 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .botton h4 {
-  color: #008EC3;
+  color: #363D45;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -311,8 +314,8 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .botton span {
-  color: #008EC3;
-  font-size: 25px;
+  color: #9CB6D4;
+  font-size: 20px;
   vertical-align: middle;
   padding: 10px;
 }
@@ -455,7 +458,6 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .contacto {
-<<<<<<< HEAD
   margin-top: 100px;
 }
 
@@ -485,14 +487,15 @@ div#myCarousel div.carousel-inner div.item img {
   padding: 20px;
 }
 
+.docclientes:hover {
+  margin: 40px 0;
+}
+
 .docclientes:hover figure {
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 100px;
-=======
-  margin: 40px 0;
->>>>>>> origin/Franco-
 }
 
 .footer {
@@ -630,12 +633,9 @@ tbody tr td {
     padding: 20px;
   }
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 768px) {
   .carousel-caption h3, .carousel-caption p, .carousel-caption a h2 {
     display: none;
   }
 }
->>>>>>> origin/Franco-
