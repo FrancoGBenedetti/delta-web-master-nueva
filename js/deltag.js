@@ -1,10 +1,10 @@
 
 $(function(){
-	$('.carousel').carousel('pause');
+	//$('.carousel').carousel('pause');
 
-	/*$.post("./news.php", function(response){
+	$.post("./news.php", function(response){
 		$(".news").html(response);
-	});*/
+	});
 });
 
 $("#contact-msg-btn").bind("click", function(){

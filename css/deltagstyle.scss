@@ -150,69 +150,60 @@ div#myCarousel{
 	div.carousel-inner{
 		margin-left: 0px;
 		border: 0px;
-		//border-bottom: 5px solid #282828;
-		//border-bottom: 2px solid $bluedelta;
-		//border-radius: 10px;
-		
 		
 		div.item{
-			text-align: center;
+			//text-align: center;
 			
 			.canister{
-
 				right: 40%;
 				left: 6%;
 				margin-right: 250px;
 				bottom: 100px;
-
 			}
 
+			/*.carousel-caption{
+				margin-left: 24px;
+				width: 40%;
+				position: absolute;
+				top: 20%;
+				left: 0;
+			}*/
 			
-
-				div.carousel-caption{
-					right: 40%;
-					left: 6%;
-					margin-right: 250px;
-					bottom: 100px;
-					color: #282828;
-					//width: 25%;
-					font-size: 14px;
-					text-shadow: 0 0px 0px rgba(0,0,0,.0);
-					
-					span{
-						font-size: 60px;
-						color: #A3C300;
-						transition: font-size 0.5s linear 0.2s; 
-					}
-
-					h2{
-						font-weight: bold;
-						color: $bluedelta;
-						font-size: 30px;
-						text-align: center;
-					}
-
-					p{
-						font-size: 20px;
-
-					}
-					span:hover{
-						color: $bluedelta;
-						font-size: 70px;
-						
-
-
-					}
-					
+			div.carousel-caption{
+				margin-left: 24px;
+				width: 40%;
+				position: absolute;
+				top: 10%;
+				left: 0;
+				color: #282828;
+				//width: 25%;
+				font-size: 14px;
+				text-shadow: 0 0px 0px rgba(0,0,0,.0);
+				
+				span{
+					font-size: 60px;
+					color: #A3C300;
+					transition: font-size 0.5s linear 0.2s; 
 				}
 
+				h2{
+					font-weight: bold;
+					color: $bluedelta;
+					font-size: 30px;
+					text-align: center;
+				}
 
+				p{
+					font-size: 20px;
+
+				}
+
+				span:hover{
+					color: $bluedelta;
+					font-size: 70px;
+				}
+			}
 			
-  
-
-
-			
-
 			img{
 				display: inline-block;
 				width: 100%;
@@ -519,10 +510,6 @@ div#myCarousel{
 		}
 
 
-
-.productos{
-}
-
 .productos-select{
 	padding: 16px;
 }
@@ -595,6 +582,7 @@ div#myCarousel{
 }
 
 .contacto{
+<<<<<<< HEAD
 	margin-top: 100px;
 }
 .datos-contacto{
@@ -650,6 +638,9 @@ div#myCarousel{
 
 	
 
+=======
+	margin: 40px 0;
+>>>>>>> origin/Franco-
 }
 
 
@@ -669,8 +660,10 @@ div#myCarousel{
 	padding: 40px;
 	background-color: #f0f0f0;
 	border-top: 1px solid $linecolor;
+	display: flex;
 	
 	img{
+		margin-top: 18px;
 		height: 200px;
 		width: 200px;
 		//border-radius: 10%;
@@ -703,9 +696,9 @@ div#myCarousel{
 }
 
 .valign{
+	height: 100%;
 	display: inline-block;
-	vertical-align: top;
-	float: none;
+	vertical-align: middle;
 }
 
 
@@ -805,56 +798,13 @@ tbody{
 	}
 }
 
-
-
-
 @media (max-width: 480px){
-
-	div.carousel-inner{
-		div.item{
-			div.carousel-caption{
-				right: 45%;
-				left: 0%;
-				margin-right: 30px;
-				color: #282828;
-				//width: 25%;
-				font-size: 14px;
-				text-shadow: 0 0px 0px rgba(0,0,0,.0);
-
-				bottom: 10px;
-				span{
-					font-size: 23px;
-					color: #A3C300;
-					transition: font-size 0.5s linear 0.2s; 
-				}
-				h2{
-					font-size: 14px;
-					color: $bluedelta;
-				}
-				h3{
-					color: #282828;
-					font-weight: bold;
-					font-size: 14px;
-				}
-
-				p{
-
-				}
-				span:hover{
-					color: $bluedelta;
-					font-size: 30px;
-
-
-				}
-			}
-		}
-	}
-
 	.video{
 		.iframe{
 			margin-top: 10px;
 		}
 	}
+<<<<<<< HEAD
 
 
 	.docclientes{
@@ -874,4 +824,12 @@ tbody{
 
 
 
+=======
+}
+
+@media (max-width: 768px){
+	.carousel-caption h3, .carousel-caption p, .carousel-caption a h2{
+		display: none;
+	}
+>>>>>>> origin/Franco-
 }
