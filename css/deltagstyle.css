@@ -1,6 +1,7 @@
 * {
   font-family: 'open sans', sans-serif;
   -webkit-box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -289,8 +290,9 @@ div#myCarousel div.carousel-inner div.item img {
 
 .botton {
   background-color: #F7FBFB;
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
+  padding: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -485,10 +487,6 @@ div#myCarousel div.carousel-inner div.item img {
 .docclientes figure img {
   width: 60%;
   padding: 20px;
-}
-
-.docclientes:hover {
-  margin: 40px 0;
 }
 
 .docclientes:hover figure {
