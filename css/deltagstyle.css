@@ -365,10 +365,6 @@ div#myCarousel div.carousel-inner div.item img {
   margin-right: 0px;
 }
 
-.contenido .contenido2 a:hover {
-  text-decoration: none;
-}
-
 .contenido .contenido2 h3 {
   font-weight: bold;
   color: #008EC3;
@@ -636,4 +632,8 @@ tbody tr td {
   .carousel-caption h3, .carousel-caption p, .carousel-caption a h2 {
     display: none;
   }
+}
+
+.contenido2 a:link, .contenido2 a:visited, .contenido2 a:hover, .contenido2 a:active {
+  text-decoration: none;
 }
