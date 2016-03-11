@@ -203,6 +203,7 @@ div#myCarousel div.carousel-inner div.item img {
 }
 
 .container-box-2 .clients {
+  text-align: center;
   padding: 10px;
   background-color: #f4f4f4;
   background: -webkit-linear-gradient(#F9FDFD, #EEF1F1);
