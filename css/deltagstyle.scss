@@ -477,15 +477,7 @@ div#myCarousel{
 			.contenido2{
 				display: block;
 				margin-right: 0px;
-				//margin-left: 20px;
 
-				
-				//padding: 30px;
-				
-				//text-align: center;
-				a:hover{
-					text-decoration: none;
-				}
 
 				h3{
 					//text-align: center;
@@ -838,4 +830,10 @@ tbody{
 		display: none;
 	}
 
+}
+
+.contenido2{
+	a:link, a:visited, a:hover, a:active{
+		text-decoration: none;
+	}	
 }
