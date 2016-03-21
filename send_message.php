@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-    $to_Email       = "aranda.sebastian@gmail.com"; //Replace with recipient email address
+    $to_Email       = "ventas@dgequipments.com"; //Replace with recipient email address
     $subject        = '[Contacto-DeltaG]'; //Subject line for emails
    
     //check $_POST vars are set, exit if any missing
@@ -23,11 +23,12 @@ if($_POST)
     //$headers = 'From: your-name@YOUR-DOMAIN.COM' . "\r\n" .
     $headers = 'From: '.$email.'' . "\r\n" . //remove this line if line above this is un-commented
     'Reply-To: '.$email.'' . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+    'X-Mailer: PHP/' . phpversion() . "\r\n" .
+    'Content-type: text/html; charset=iso-8859-1' . "\r\n";
    
         // send mail
-    $sentMail = @mail($to_Email, $subject,"\r\n\r\n"."Cliente:\r\nNombre:".$nombre
-        ."\r\n\r\n'".$mensaje."'", $headers);
+    $sentMail = @mail($to_Email, $subject,"<p><b>Cliente:</b> ".$nombre."<br>
+        <br><b>Correo:</b> ".$email."<br><br><b>Mensaje</b><br>".$mensaje."'</p>", $headers);
    
     if (!$sentMail){
         $output = array('state'=> 0, 'msg' => 'El mail no pudo ser enviado. Contactese a: '.$email);
