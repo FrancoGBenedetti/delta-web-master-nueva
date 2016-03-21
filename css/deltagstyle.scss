@@ -754,9 +754,13 @@ tbody{
 
 
 
-@media(max-width:400px){
+@media(max-width:992px){
 	.productos2 img{
 		margin-bottom: 16px;
+	}
+
+	.productos{
+		text-align: center;
 	}
 }
 
@@ -796,7 +800,7 @@ tbody{
 	}
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
 	.video{
 		.iframe{
 			margin-top: 10px;
