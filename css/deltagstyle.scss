@@ -655,7 +655,7 @@ div#myCarousel{
 }
 
 .productos{
-	padding: 40px;
+	//padding: 40px;
 	background-color: #f0f0f0;
 	border-top: 1px solid $linecolor;
 	//display: flex;
@@ -754,7 +754,7 @@ tbody{
 
 
 
-@media(max-width:992px){
+@media(max-width:1200px){
 	.productos2 img{
 		margin-bottom: 16px;
 	}

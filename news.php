@@ -23,7 +23,7 @@ $html = "";
 foreach ($articles as $a){
 	$article = new article();
 	$link = $a->find('div.media__body a',0);
-	$article->title = '<a href="http://www.sciencemag.org'.$link->href.'">'.$link->innertext.'</a>';
+	$article->title = '<a target="_blank" href="http://www.sciencemag.org'.$link->href.'">'.$link->innertext.'</a>';
 	$article->image = $a->find('div.media__icon img', 0)->src;
 	$article->author = $a->find('div.media__body p a', 0)->innertext;
 	$article->date = $a->find('div.media__body p time', 0)->innertext;
