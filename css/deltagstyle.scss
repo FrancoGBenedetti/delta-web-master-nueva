@@ -321,6 +321,14 @@ div#myCarousel{
 .articulos{
 
 	margin-top: 30px;
+	h3{
+
+		font-weight: bold;
+		color: $bluedelta;
+		text-align: center;
+				
+				
+	}
 	
 }
 
@@ -378,6 +386,19 @@ div#myCarousel{
 			width: 100%;
 
 
+		}
+		.oldlogo{
+			text-align: center;
+
+			figure{
+				display: inline-block;
+
+				img{
+					padding: 10px;
+					width: 240px;
+					margin-top: 30px;
+				}
+			}
 		}
 
 	}
@@ -501,6 +522,7 @@ div#myCarousel{
 						width:120px;
 					}
 				}
+
 			}
 			
 			
@@ -610,6 +632,9 @@ div#myCarousel{
 
 .docclientes{
 	//padding: 15px;
+	a{
+		text-decoration: none;
+	}
 	figure{
 		text-align: center;
 
@@ -618,6 +643,12 @@ div#myCarousel{
 			width: 60%;
 			
 			padding: 20px;
+		}
+		p{
+			font-size: bold;
+			font-size: 35px;
+			color: #282828;
+			padding: 30px;
 		}
 	}
 }
