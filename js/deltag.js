@@ -12,7 +12,7 @@ $("#contact-msg-btn").bind("click", function(){
 		var data = {
 			"nombre": $('#msg-nombre').val(),
 			"email": $('#msg-email').val(),
-			"empresa": $('#msg-empresa').val()
+			"empresa": $('#msg-empresa').val(),
 			"mensaje": $('#msg-mensaje').val()
 		}
 

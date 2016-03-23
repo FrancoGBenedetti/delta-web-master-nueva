@@ -1,8 +1,8 @@
 <?php
 if($_POST)
 {
-    //$to_Email       = "ventas@dgequipments.com"; //Replace with recipient email address
-    $to_Email       = "aranda.sebastian@gmail.com"; //Replace with recipient email address
+    $to_Email       = "ventas@dgequipments.com"; //Replace with recipient email address
+    //$to_Email       = "aranda.sebastian@gmail.com"; //Replace with recipient email address
     $subject        = '[Contacto-DeltaG]'; //Subject line for emails
    
     //check $_POST vars are set, exit if any missing
@@ -33,7 +33,7 @@ if($_POST)
         <b>Cliente:</b> ".$nombre."<br><br>
         <b>Correo:</b> ".$email."<br><br>
         <b>Empresa:</b> ".$empresa."<br><br>
-        <b>Mensaje</b><br>".$mensaje."'</p>", $headers);
+        <b>Mensaje</b><br>'".$mensaje."'</p>", $headers);
    
     if (!$sentMail){
         $output = array('state'=> 0, 'msg' => 'El mail no pudo ser enviado. Contactese a: '.$email);
