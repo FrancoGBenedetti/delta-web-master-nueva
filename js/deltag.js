@@ -12,6 +12,7 @@ $("#contact-msg-btn").bind("click", function(){
 		var data = {
 			"nombre": $('#msg-nombre').val(),
 			"email": $('#msg-email').val(),
+			"empresa": $('#msg-empresa').val()
 			"mensaje": $('#msg-mensaje').val()
 		}
 
@@ -32,6 +33,7 @@ $("#contact-msg-btn").bind("click", function(){
 function validateMsgForm(){
 	var nombre = $('#msg-nombre').val();
     var email = $('#msg-email').val();
+    var empresa = $('#msg-empresa').val();
     var mensaje = $('#msg-mensaje').val();
 
     var proceed = true;
@@ -41,6 +43,12 @@ function validateMsgForm(){
     	$('#msg-email').focus();
         proceed = false;
         error = "Debe ingresar un mensaje";	
+    }
+
+    if (empresa == "" || empresa == null){
+    	$('#msg-empresa').focus();
+        proceed = false;
+        error = "Debe ingresar el nombre de su empresa o institución";
     }
 
     if (email == "" || email == null){
