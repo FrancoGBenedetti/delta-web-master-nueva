@@ -65,7 +65,7 @@ function validateMsgForm(){
 
     var response = {"proceed": proceed, "error": error};
 
-    if (proceed == false)
+    if (!proceed)
     	alert(response.error);
     
     return response;
