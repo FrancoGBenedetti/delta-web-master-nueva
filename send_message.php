@@ -1,7 +1,8 @@
 <?php
 if($_POST)
 {
-    $to_Email       = "ventas@dgequipments.com"; //Replace with recipient email address
+    //$to_Email       = "ventas@dgequipments.com"; //Replace with recipient email address
+    $to_Email       = "aranda.sebastian@gmail.com"; //Replace with recipient email address
     $subject        = '[Contacto-DeltaG]'; //Subject line for emails
    
     //check $_POST vars are set, exit if any missing

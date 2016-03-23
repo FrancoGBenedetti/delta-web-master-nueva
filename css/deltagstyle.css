@@ -630,7 +630,7 @@ tbody tr td {
 
 .news .article .title {
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 1.25em;
 }
 
 .news .article .author, .news .article .date {
@@ -659,52 +659,4 @@ tbody tr td {
 
 .contenido2 a:link, .contenido2 a:visited, .contenido2 a:hover, .contenido2 a:active {
   text-decoration: none;
-}
-
-.news {
-  overflow-y: scroll;
-  height: 400px;
-  padding-left: 24px;
-}
-
-.news .article {
-  padding: 16px 0;
-  border-bottom: 1px solid #c7c7c7;
-}
-
-.news .article img {
-  float: left;
-  height: 80px;
-  width: 140px;
-  margin-right: 16px;
-}
-
-.news .article .article_info {
-  float: right;
-}
-
-.news .article .title {
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-.news .article .author, .news .article .date {
-  font-size: 1em;
-  margin-right: 8px;
-}
-
-.news .article .date {
-  padding-left: 8px;
-  border-left: 2px solid #c7c7c7;
-}
-
-.clearfix {
-  clear: both;
-}
-
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }

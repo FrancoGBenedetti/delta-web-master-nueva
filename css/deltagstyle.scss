@@ -800,7 +800,7 @@ tbody{
 
 		.title{
 			font-weight: bold;
-			font-size: 2.5em;
+			font-size: 1.25em;
 		}
 
 		.author, .date{
@@ -855,52 +855,4 @@ tbody{
 	a:link, a:visited, a:hover, a:active{
 		text-decoration: none;
 	}	
-}
-
-.news {
-	overflow-y: scroll;
-	height: 400px;
-	padding-left: 24px;
-
-	.article{
-		padding: 16px 0;
-		border-bottom: 1px solid $linecolor;
-
-		img{
-			float: left;
-			height: 80px;
-			width: 140px;
-			margin-right: 16px;
-		}
-
-		.article_info{
-			float: right;
-		}
-
-		.title{
-			font-weight: bold;
-			font-size: 1.5em;
-		}
-
-		.author, .date{
-			font-size: 1em;
-			margin-right: 8px;
-		}
-
-		.date{
-			padding-left: 8px;
-			border-left: 2px solid $linecolor;
-		}	
-	}
-}
-
-.clearfix{
-	clear:both;
-}
-
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
 }
