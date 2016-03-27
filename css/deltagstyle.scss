@@ -277,7 +277,7 @@ div#myCarousel{
 			display: inline-block;
 			//border-right: 1px dashed $linecolor;
 			padding: 10px 0px;
-			margin-right: 25px;
+			margin-right: 10px;
 			
 			img{
 				width: 80px;
@@ -723,6 +723,7 @@ div#myCarousel{
 .thead-inverse{
 	background-color: $bluedelta;
 	color: white;
+	font-size: 18px;
 	th{
 		text-align: center !important;
 	}

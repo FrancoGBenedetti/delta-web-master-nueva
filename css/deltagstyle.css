@@ -215,7 +215,7 @@ div#myCarousel div.carousel-inner div.item img {
 .container-box-2 .clients figure {
   display: inline-block;
   padding: 10px 0px;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 .container-box-2 .clients figure img {
@@ -574,6 +574,7 @@ div#myCarousel div.carousel-inner div.item img {
 .thead-inverse {
   background-color: #008EC3;
   color: white;
+  font-size: 18px;
 }
 
 .thead-inverse th {
