@@ -732,15 +732,13 @@ div#myCarousel{
 
 tbody{
 	tr{
-		td{
+		td, th{
 			vertical-align: middle !important;
-			//font-weight: bold;
 			font-size: 20px;
-			text-align: left !important;
+			text-align: center !important;
 		}
 	}
 }
-
 
 
 
@@ -849,3 +847,7 @@ tbody{
 		text-decoration: none;
 	}	
 }
+
+.table-responsive table td{
+	text-align: center;
+} 
