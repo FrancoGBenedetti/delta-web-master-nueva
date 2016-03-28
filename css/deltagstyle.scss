@@ -723,7 +723,6 @@ div#myCarousel{
 .thead-inverse{
 	background-color: $bluedelta;
 	color: white;
-	font-size: 18px;
 	th{
 		text-align: center !important;
 	}
@@ -734,7 +733,7 @@ tbody{
 	tr{
 		td, th{
 			vertical-align: middle !important;
-			font-size: 20px;
+			font-size: 16px;
 			text-align: center !important;
 		}
 	}
@@ -847,7 +846,3 @@ tbody{
 		text-decoration: none;
 	}	
 }
-
-.table-responsive table td{
-	text-align: center;
-} 
