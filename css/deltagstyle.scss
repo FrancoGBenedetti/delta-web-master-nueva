@@ -777,6 +777,7 @@ tbody{
 	overflow-y: scroll;
 	height: 392px;
 	padding-left: 24px;
+	background-color: #e6e6e6;
 
 	.article{
 		padding: 16px 0;
@@ -784,24 +785,37 @@ tbody{
 
 		img{
 			float: left;
-			height: 80px;
+			width: 140px;
 			margin-right: 16px;
 		}
 
+		.article_info{
+			margin-left: 156px;
+		}
+
 		.title{
+			display: block;
 			font-weight: bold;
-			font-size: 1.25em;
+			color: #37588A;
+			font-size: 1.3em;
+
+			a:link, a:visited, a:hover, a:active{
+				text-decoration: none;
+			}
 		}
 
 		.author, .date{
-			font-size: 1em;
+			font-size: 0.8em;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: #606060;
 		}
 
-		.date{
-			float: right;
+		.author{
+			border-right: 1.5px solid #606060;
+			padding-right: 8px;
+			margin-right: 8px;
 		}
-
-		
 	}
 }
 

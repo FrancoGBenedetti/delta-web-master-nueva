@@ -614,6 +614,7 @@ tbody tr td, tbody tr th {
   overflow-y: scroll;
   height: 392px;
   padding-left: 24px;
+  background-color: #e6e6e6;
 }
 
 .news .article {
@@ -623,21 +624,36 @@ tbody tr td, tbody tr th {
 
 .news .article img {
   float: left;
-  height: 80px;
+  width: 140px;
   margin-right: 16px;
 }
 
+.news .article .article_info {
+  margin-left: 156px;
+}
+
 .news .article .title {
+  display: block;
   font-weight: bold;
-  font-size: 1.25em;
+  color: #37588A;
+  font-size: 1.3em;
+}
+
+.news .article .title a:link, .news .article .title a:visited, .news .article .title a:hover, .news .article .title a:active {
+  text-decoration: none;
 }
 
 .news .article .author, .news .article .date {
-  font-size: 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #606060;
 }
 
-.news .article .date {
-  float: right;
+.news .article .author {
+  border-right: 1.5px solid #606060;
+  padding-right: 8px;
+  margin-right: 8px;
 }
 
 @media (max-width: 360px) {
